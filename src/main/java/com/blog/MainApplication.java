@@ -16,7 +16,7 @@ import javax.sql.DataSource;
 import java.nio.charset.Charset;
 
 @SpringBootApplication
-@MapperScan(value = {"com.blog.mapper.*"})
+@MapperScan(value = {"com.blog.mapper.*.*"})
 public class MainApplication extends SpringBootServletInitializer {
 
     public static void main(String[] args) {

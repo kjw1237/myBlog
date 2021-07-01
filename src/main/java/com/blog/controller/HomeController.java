@@ -11,6 +11,14 @@ import java.time.LocalDateTime;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * @package : com.blog.controller
+ * @name : HomeController.java
+ * @date : 2021/07/01 6:05 오후
+ * @author : jerrykim
+ * @version : 1.0.0
+ * @modifyed :
+ **/
 @Controller
 public class HomeController {
     @GetMapping(value = "/")
