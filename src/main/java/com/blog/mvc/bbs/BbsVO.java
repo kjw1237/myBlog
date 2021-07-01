@@ -27,16 +27,16 @@ public class BbsVO {
      * hit              int(11)
      * **/
 
-    String board_num;
-    String board_title;
-    String board_content;
-    String category1;
-    String category2;
-    String tag;
-    String regdate;
-    String moddate;
-    String img;
-    String uid;
-    int hit;
-    String test;
+    private String board_num;
+    private String board_title;
+    private String board_content;
+    private String category1;
+    private String category2;
+    private String tag;
+    private String regdate;
+    private String moddate;
+    private String img;
+    private String uid;
+    private int hit;
+    private String test;
 }

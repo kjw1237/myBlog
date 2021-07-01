@@ -25,14 +25,14 @@ public class UserVO {
      * regdate      varchar(45)         NOTNULL
      * moddate      varchar(45)
      * **/
-    int result;
-    String uid;
-    String upwd;
-    String uname;
-    String uemail;
-    String email_flag;
-    String pwd_flag;
-    String flag;
-    String regdate;
-    String moddate;
+    private int result;
+    private String uid;
+    private String upwd;
+    private String uname;
+    private String uemail;
+    private String email_flag;
+    private String pwd_flag;
+    private String flag;
+    private String regdate;
+    private String moddate;
 }
