@@ -17,14 +17,14 @@ import java.nio.charset.Charset;
 
 @SpringBootApplication
 @MapperScan(value = {"com.blog.mapper.*"})
-public class BlogApplication extends SpringBootServletInitializer {
+public class MainApplication extends SpringBootServletInitializer {
 
     public static void main(String[] args) {
-        SpringApplication.run(BlogApplication.class, args);
+        SpringApplication.run(MainApplication.class, args);
     }
 
     protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
-        return application.sources(new Class[]{BlogApplication.class});
+        return application.sources(new Class[]{MainApplication.class});
     }
 
     @Bean
