@@ -55,7 +55,7 @@
                     <!--button-->
                     <form method="post" action="/register">
                         <div class="container-login100-form-btn m-t-17">
-                            <button type="submit" class="login100-form-btn" onclick = "return F_validation();">
+                            <button type="submit" class="login100-form-btn" th:href="@{user/login}">
                                 회원가입
                             </button>
                         </div>

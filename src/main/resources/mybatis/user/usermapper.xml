@@ -6,7 +6,4 @@
                     VALUES (#{uid} , #{upwd} , #{uname} ,#{ueamil})
     </insert>
 
-    <select id="login">
-
-    </select>
 </mapper>
