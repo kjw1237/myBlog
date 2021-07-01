@@ -1,0 +1,1055 @@
+2021-06-29 13:49:58 [INFO ] [StartupInfoLogger.java]logStarting(55) : Starting BlogApplication using Java 1.8.0_292 on DESKTOP-1LJLV0R with PID 27664 (C:\Users\uk959\IdeaProjects\blog\build\classes\java\main started by uk959 in C:\Users\uk959\IdeaProjects\blog)
+2021-06-29 13:49:58 [INFO ] [SpringApplication.java]logStartupProfileInfo(663) : No active profile set, falling back to default profiles: default
+2021-06-29 13:49:59 [WARN ] [Logger.java]warn(44) : No MyBatis mapper was found in '[com.blog.mapper.*]' package. Please check your configuration.
+2021-06-29 13:50:00 [WARN ] [Logger.java]warn(44) : Property 'mapperLocations' was specified but matching resources are not found.
+2021-06-29 13:50:00 [INFO ] [StartupInfoLogger.java]logStarted(61) : Started BlogApplication in 3.174 seconds (JVM running for 4.749)
+2021-06-29 13:51:56 [INFO ] [StartupInfoLogger.java]logStarting(55) : Starting BlogApplication using Java 1.8.0_292 on DESKTOP-1LJLV0R with PID 28248 (C:\Users\uk959\IdeaProjects\blog\build\classes\java\main started by uk959 in C:\Users\uk959\IdeaProjects\blog)
+2021-06-29 13:51:56 [INFO ] [SpringApplication.java]logStartupProfileInfo(663) : No active profile set, falling back to default profiles: default
+2021-06-29 13:51:57 [WARN ] [Logger.java]warn(44) : No MyBatis mapper was found in '[com.blog.mapper.*]' package. Please check your configuration.
+2021-06-29 13:51:57 [WARN ] [Logger.java]warn(44) : Property 'mapperLocations' was specified but matching resources are not found.
+2021-06-29 13:51:58 [WARN ] [OptionalLiveReloadServer.java]startServer(61) : Unable to start LiveReload server
+2021-06-29 13:51:58 [WARN ] [AbstractApplicationContext.java]refresh(591) : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 9000 is already in use
+2021-06-29 13:51:58 [ERROR] [LoggingFailureAnalysisReporter.java]report(40) : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 9000 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 9000 or configure this application to listen on another port.
+
+2021-06-29 13:52:41 [INFO ] [ErrorExceptionConfig.java]handleError(33) : ########## ERROR!!! ##########
+2021-06-29 13:52:41 [INFO ] [ErrorExceptionConfig.java]handleError(34) : 에러 구분  : 404
+2021-06-29 13:52:41 [INFO ] [ErrorExceptionConfig.java]handleError(35) : 발생일     : 20210629 01:52
+2021-06-29 13:52:41 [INFO ] [ErrorExceptionConfig.java]handleError(36) : ##############################
+2021-06-29 13:52:41 [INFO ] [ErrorExceptionConfig.java]handleError(33) : ########## ERROR!!! ##########
+2021-06-29 13:52:41 [INFO ] [ErrorExceptionConfig.java]handleError(34) : 에러 구분  : 404
+2021-06-29 13:52:41 [INFO ] [ErrorExceptionConfig.java]handleError(35) : 발생일     : 20210629 01:52
+2021-06-29 13:52:41 [INFO ] [ErrorExceptionConfig.java]handleError(36) : ##############################
+2021-06-29 13:52:41 [INFO ] [ErrorExceptionConfig.java]handleError(33) : ########## ERROR!!! ##########
+2021-06-29 13:52:41 [INFO ] [ErrorExceptionConfig.java]handleError(34) : 에러 구분  : 404
+2021-06-29 13:52:41 [INFO ] [ErrorExceptionConfig.java]handleError(35) : 발생일     : 20210629 01:52
+2021-06-29 13:52:41 [INFO ] [ErrorExceptionConfig.java]handleError(36) : ##############################
+2021-06-29 13:52:41 [INFO ] [ErrorExceptionConfig.java]handleError(33) : ########## ERROR!!! ##########
+2021-06-29 13:52:41 [INFO ] [ErrorExceptionConfig.java]handleError(34) : 에러 구분  : 404
+2021-06-29 13:52:41 [INFO ] [ErrorExceptionConfig.java]handleError(35) : 발생일     : 20210629 01:52
+2021-06-29 13:52:41 [INFO ] [ErrorExceptionConfig.java]handleError(36) : ##############################
+2021-06-29 13:52:41 [INFO ] [ErrorExceptionConfig.java]handleError(33) : ########## ERROR!!! ##########
+2021-06-29 13:52:41 [INFO ] [ErrorExceptionConfig.java]handleError(34) : 에러 구분  : 404
+2021-06-29 13:52:41 [INFO ] [ErrorExceptionConfig.java]handleError(35) : 발생일     : 20210629 01:52
+2021-06-29 13:52:41 [INFO ] [ErrorExceptionConfig.java]handleError(36) : ##############################
+2021-06-29 13:52:44 [INFO ] [ErrorExceptionConfig.java]handleError(33) : ########## ERROR!!! ##########
+2021-06-29 13:52:44 [INFO ] [ErrorExceptionConfig.java]handleError(34) : 에러 구분  : 404
+2021-06-29 13:52:44 [INFO ] [ErrorExceptionConfig.java]handleError(35) : 발생일     : 20210629 01:52
+2021-06-29 13:52:44 [INFO ] [ErrorExceptionConfig.java]handleError(36) : ##############################
+2021-06-29 13:52:44 [INFO ] [ErrorExceptionConfig.java]handleError(33) : ########## ERROR!!! ##########
+2021-06-29 13:52:44 [INFO ] [ErrorExceptionConfig.java]handleError(33) : ########## ERROR!!! ##########
+2021-06-29 13:52:44 [INFO ] [ErrorExceptionConfig.java]handleError(34) : 에러 구분  : 404
+2021-06-29 13:52:44 [INFO ] [ErrorExceptionConfig.java]handleError(34) : 에러 구분  : 404
+2021-06-29 13:52:44 [INFO ] [ErrorExceptionConfig.java]handleError(35) : 발생일     : 20210629 01:52
+2021-06-29 13:52:44 [INFO ] [ErrorExceptionConfig.java]handleError(35) : 발생일     : 20210629 01:52
+2021-06-29 13:52:44 [INFO ] [ErrorExceptionConfig.java]handleError(36) : ##############################
+2021-06-29 13:52:44 [INFO ] [ErrorExceptionConfig.java]handleError(36) : ##############################
+2021-06-29 13:55:16 [INFO ] [ErrorExceptionConfig.java]handleError(33) : ########## ERROR!!! ##########
+2021-06-29 13:55:16 [INFO ] [ErrorExceptionConfig.java]handleError(34) : 에러 구분  : 404
+2021-06-29 13:55:16 [INFO ] [ErrorExceptionConfig.java]handleError(35) : 발생일     : 20210629 01:55
+2021-06-29 13:55:16 [INFO ] [ErrorExceptionConfig.java]handleError(36) : ##############################
+2021-06-29 13:55:16 [INFO ] [ErrorExceptionConfig.java]handleError(33) : ########## ERROR!!! ##########
+2021-06-29 13:55:16 [INFO ] [ErrorExceptionConfig.java]handleError(33) : ########## ERROR!!! ##########
+2021-06-29 13:55:16 [INFO ] [ErrorExceptionConfig.java]handleError(34) : 에러 구분  : 404
+2021-06-29 13:55:16 [INFO ] [ErrorExceptionConfig.java]handleError(34) : 에러 구분  : 404
+2021-06-29 13:55:16 [INFO ] [ErrorExceptionConfig.java]handleError(35) : 발생일     : 20210629 01:55
+2021-06-29 13:55:16 [INFO ] [ErrorExceptionConfig.java]handleError(35) : 발생일     : 20210629 01:55
+2021-06-29 13:55:16 [INFO ] [ErrorExceptionConfig.java]handleError(36) : ##############################
+2021-06-29 13:55:16 [INFO ] [ErrorExceptionConfig.java]handleError(36) : ##############################
+2021-06-29 13:55:16 [INFO ] [ErrorExceptionConfig.java]handleError(33) : ########## ERROR!!! ##########
+2021-06-29 13:55:16 [INFO ] [ErrorExceptionConfig.java]handleError(34) : 에러 구분  : 404
+2021-06-29 13:55:16 [INFO ] [ErrorExceptionConfig.java]handleError(35) : 발생일     : 20210629 01:55
+2021-06-29 13:55:16 [INFO ] [ErrorExceptionConfig.java]handleError(36) : ##############################
+2021-06-29 13:55:18 [INFO ] [ErrorExceptionConfig.java]handleError(33) : ########## ERROR!!! ##########
+2021-06-29 13:55:18 [INFO ] [ErrorExceptionConfig.java]handleError(34) : 에러 구분  : 404
+2021-06-29 13:55:18 [INFO ] [ErrorExceptionConfig.java]handleError(35) : 발생일     : 20210629 01:55
+2021-06-29 13:55:18 [INFO ] [ErrorExceptionConfig.java]handleError(36) : ##############################
+2021-06-29 13:55:18 [INFO ] [ErrorExceptionConfig.java]handleError(33) : ########## ERROR!!! ##########
+2021-06-29 13:55:18 [INFO ] [ErrorExceptionConfig.java]handleError(34) : 에러 구분  : 404
+2021-06-29 13:55:18 [INFO ] [ErrorExceptionConfig.java]handleError(35) : 발생일     : 20210629 01:55
+2021-06-29 13:55:18 [INFO ] [ErrorExceptionConfig.java]handleError(36) : ##############################
+2021-06-29 13:57:56 [INFO ] [ErrorExceptionConfig.java]handleError(33) : ########## ERROR!!! ##########
+2021-06-29 13:57:56 [INFO ] [ErrorExceptionConfig.java]handleError(34) : 에러 구분  : 404
+2021-06-29 13:57:56 [INFO ] [ErrorExceptionConfig.java]handleError(35) : 발생일     : 20210629 01:57
+2021-06-29 13:57:56 [INFO ] [ErrorExceptionConfig.java]handleError(36) : ##############################
+2021-06-29 13:57:56 [INFO ] [ErrorExceptionConfig.java]handleError(33) : ########## ERROR!!! ##########
+2021-06-29 13:57:56 [INFO ] [ErrorExceptionConfig.java]handleError(34) : 에러 구분  : 404
+2021-06-29 13:57:56 [INFO ] [ErrorExceptionConfig.java]handleError(33) : ########## ERROR!!! ##########
+2021-06-29 13:57:56 [INFO ] [ErrorExceptionConfig.java]handleError(34) : 에러 구분  : 404
+2021-06-29 13:57:56 [INFO ] [ErrorExceptionConfig.java]handleError(35) : 발생일     : 20210629 01:57
+2021-06-29 13:57:56 [INFO ] [ErrorExceptionConfig.java]handleError(35) : 발생일     : 20210629 01:57
+2021-06-29 13:57:56 [INFO ] [ErrorExceptionConfig.java]handleError(36) : ##############################
+2021-06-29 13:57:56 [INFO ] [ErrorExceptionConfig.java]handleError(36) : ##############################
+2021-06-29 14:01:57 [INFO ] [StartupInfoLogger.java]logStarting(55) : Starting BlogApplication using Java 1.8.0_292 on DESKTOP-1LJLV0R with PID 3272 (C:\Users\uk959\IdeaProjects\blog\build\classes\java\main started by uk959 in C:\Users\uk959\IdeaProjects\blog)
+2021-06-29 14:01:57 [INFO ] [SpringApplication.java]logStartupProfileInfo(663) : No active profile set, falling back to default profiles: default
+2021-06-29 14:01:58 [WARN ] [Logger.java]warn(44) : No MyBatis mapper was found in '[com.blog.mapper.*]' package. Please check your configuration.
+2021-06-29 14:01:58 [WARN ] [Logger.java]warn(44) : Property 'mapperLocations' was specified but matching resources are not found.
+2021-06-29 14:01:59 [WARN ] [OptionalLiveReloadServer.java]startServer(61) : Unable to start LiveReload server
+2021-06-29 14:01:59 [WARN ] [AbstractApplicationContext.java]refresh(591) : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 9000 is already in use
+2021-06-29 14:01:59 [ERROR] [LoggingFailureAnalysisReporter.java]report(40) : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 9000 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 9000 or configure this application to listen on another port.
+
+2021-06-29 14:03:37 [INFO ] [ErrorExceptionConfig.java]handleError(33) : ########## ERROR!!! ##########
+2021-06-29 14:03:37 [INFO ] [ErrorExceptionConfig.java]handleError(34) : 에러 구분  : 404
+2021-06-29 14:03:37 [INFO ] [ErrorExceptionConfig.java]handleError(35) : 발생일     : 20210629 02:03
+2021-06-29 14:03:37 [INFO ] [ErrorExceptionConfig.java]handleError(36) : ##############################
+2021-06-29 14:03:38 [INFO ] [ErrorExceptionConfig.java]handleError(33) : ########## ERROR!!! ##########
+2021-06-29 14:03:38 [INFO ] [ErrorExceptionConfig.java]handleError(34) : 에러 구분  : 404
+2021-06-29 14:03:38 [INFO ] [ErrorExceptionConfig.java]handleError(35) : 발생일     : 20210629 02:03
+2021-06-29 14:03:38 [INFO ] [ErrorExceptionConfig.java]handleError(36) : ##############################
+2021-06-29 14:03:38 [INFO ] [ErrorExceptionConfig.java]handleError(33) : ########## ERROR!!! ##########
+2021-06-29 14:03:38 [INFO ] [ErrorExceptionConfig.java]handleError(34) : 에러 구분  : 404
+2021-06-29 14:03:38 [INFO ] [ErrorExceptionConfig.java]handleError(35) : 발생일     : 20210629 02:03
+2021-06-29 14:03:38 [INFO ] [ErrorExceptionConfig.java]handleError(36) : ##############################
+2021-06-29 14:03:38 [INFO ] [ErrorExceptionConfig.java]handleError(33) : ########## ERROR!!! ##########
+2021-06-29 14:03:38 [INFO ] [ErrorExceptionConfig.java]handleError(34) : 에러 구분  : 404
+2021-06-29 14:03:38 [INFO ] [ErrorExceptionConfig.java]handleError(35) : 발생일     : 20210629 02:03
+2021-06-29 14:03:38 [INFO ] [ErrorExceptionConfig.java]handleError(36) : ##############################
+2021-06-29 14:03:38 [INFO ] [ErrorExceptionConfig.java]handleError(33) : ########## ERROR!!! ##########
+2021-06-29 14:03:38 [INFO ] [ErrorExceptionConfig.java]handleError(34) : 에러 구분  : 404
+2021-06-29 14:03:38 [INFO ] [ErrorExceptionConfig.java]handleError(35) : 발생일     : 20210629 02:03
+2021-06-29 14:03:38 [INFO ] [ErrorExceptionConfig.java]handleError(36) : ##############################
+2021-06-29 14:03:38 [INFO ] [ErrorExceptionConfig.java]handleError(33) : ########## ERROR!!! ##########
+2021-06-29 14:03:38 [INFO ] [ErrorExceptionConfig.java]handleError(33) : ########## ERROR!!! ##########
+2021-06-29 14:03:38 [INFO ] [ErrorExceptionConfig.java]handleError(34) : 에러 구분  : 404
+2021-06-29 14:03:38 [INFO ] [ErrorExceptionConfig.java]handleError(34) : 에러 구분  : 404
+2021-06-29 14:03:38 [INFO ] [ErrorExceptionConfig.java]handleError(35) : 발생일     : 20210629 02:03
+2021-06-29 14:03:38 [INFO ] [ErrorExceptionConfig.java]handleError(35) : 발생일     : 20210629 02:03
+2021-06-29 14:03:38 [INFO ] [ErrorExceptionConfig.java]handleError(36) : ##############################
+2021-06-29 14:03:38 [INFO ] [ErrorExceptionConfig.java]handleError(36) : ##############################
+2021-06-29 14:03:39 [INFO ] [ErrorExceptionConfig.java]handleError(33) : ########## ERROR!!! ##########
+2021-06-29 14:03:39 [INFO ] [ErrorExceptionConfig.java]handleError(34) : 에러 구분  : 404
+2021-06-29 14:03:39 [INFO ] [ErrorExceptionConfig.java]handleError(35) : 발생일     : 20210629 02:03
+2021-06-29 14:03:39 [INFO ] [ErrorExceptionConfig.java]handleError(36) : ##############################
+2021-06-29 14:04:59 [INFO ] [StartupInfoLogger.java]logStarting(55) : Starting BlogApplication using Java 1.8.0_292 on DESKTOP-1LJLV0R with PID 27664 (C:\Users\uk959\IdeaProjects\blog\build\classes\java\main started by uk959 in C:\Users\uk959\IdeaProjects\blog)
+2021-06-29 14:04:59 [INFO ] [SpringApplication.java]logStartupProfileInfo(663) : No active profile set, falling back to default profiles: default
+2021-06-29 14:04:59 [WARN ] [Logger.java]warn(44) : No MyBatis mapper was found in '[com.blog.mapper.*]' package. Please check your configuration.
+2021-06-29 14:05:00 [WARN ] [Logger.java]warn(44) : Property 'mapperLocations' was specified but matching resources are not found.
+2021-06-29 14:05:00 [INFO ] [StartupInfoLogger.java]logStarted(61) : Started BlogApplication in 0.626 seconds (JVM running for 903.957)
+2021-06-29 14:05:05 [INFO ] [StartupInfoLogger.java]logStarting(55) : Starting BlogApplication using Java 1.8.0_292 on DESKTOP-1LJLV0R with PID 14944 (C:\Users\uk959\IdeaProjects\blog\build\classes\java\main started by uk959 in C:\Users\uk959\IdeaProjects\blog)
+2021-06-29 14:05:05 [INFO ] [SpringApplication.java]logStartupProfileInfo(663) : No active profile set, falling back to default profiles: default
+2021-06-29 14:05:06 [WARN ] [Logger.java]warn(44) : No MyBatis mapper was found in '[com.blog.mapper.*]' package. Please check your configuration.
+2021-06-29 14:05:06 [WARN ] [Logger.java]warn(44) : Property 'mapperLocations' was specified but matching resources are not found.
+2021-06-29 14:05:07 [WARN ] [OptionalLiveReloadServer.java]startServer(61) : Unable to start LiveReload server
+2021-06-29 14:05:07 [WARN ] [AbstractApplicationContext.java]refresh(591) : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 9001 is already in use
+2021-06-29 14:05:07 [ERROR] [LoggingFailureAnalysisReporter.java]report(40) : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 9001 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 9001 or configure this application to listen on another port.
+
+2021-06-29 14:05:21 [INFO ] [StartupInfoLogger.java]logStarting(55) : Starting BlogApplication using Java 1.8.0_292 on DESKTOP-1LJLV0R with PID 27664 (C:\Users\uk959\IdeaProjects\blog\build\classes\java\main started by uk959 in C:\Users\uk959\IdeaProjects\blog)
+2021-06-29 14:05:21 [INFO ] [SpringApplication.java]logStartupProfileInfo(663) : No active profile set, falling back to default profiles: default
+2021-06-29 14:05:21 [WARN ] [Logger.java]warn(44) : No MyBatis mapper was found in '[com.blog.mapper.*]' package. Please check your configuration.
+2021-06-29 14:05:22 [WARN ] [Logger.java]warn(44) : Property 'mapperLocations' was specified but matching resources are not found.
+2021-06-29 14:05:22 [INFO ] [StartupInfoLogger.java]logStarted(61) : Started BlogApplication in 0.473 seconds (JVM running for 925.994)
+2021-06-29 14:05:27 [INFO ] [StartupInfoLogger.java]logStarting(55) : Starting BlogApplication using Java 1.8.0_292 on DESKTOP-1LJLV0R with PID 26732 (C:\Users\uk959\IdeaProjects\blog\build\classes\java\main started by uk959 in C:\Users\uk959\IdeaProjects\blog)
+2021-06-29 14:05:27 [INFO ] [SpringApplication.java]logStartupProfileInfo(663) : No active profile set, falling back to default profiles: default
+2021-06-29 14:05:28 [WARN ] [Logger.java]warn(44) : No MyBatis mapper was found in '[com.blog.mapper.*]' package. Please check your configuration.
+2021-06-29 14:05:28 [WARN ] [Logger.java]warn(44) : Property 'mapperLocations' was specified but matching resources are not found.
+2021-06-29 14:05:29 [WARN ] [OptionalLiveReloadServer.java]startServer(61) : Unable to start LiveReload server
+2021-06-29 14:05:29 [WARN ] [AbstractApplicationContext.java]refresh(591) : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 9000 is already in use
+2021-06-29 14:05:29 [ERROR] [LoggingFailureAnalysisReporter.java]report(40) : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 9000 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 9000 or configure this application to listen on another port.
+
+2021-06-29 14:07:48 [INFO ] [StartupInfoLogger.java]logStarting(55) : Starting BlogApplication using Java 1.8.0_292 on DESKTOP-1LJLV0R with PID 26208 (C:\Users\uk959\IdeaProjects\blog\build\classes\java\main started by uk959 in C:\Users\uk959\IdeaProjects\blog)
+2021-06-29 14:07:48 [INFO ] [SpringApplication.java]logStartupProfileInfo(663) : No active profile set, falling back to default profiles: default
+2021-06-29 14:07:49 [WARN ] [Logger.java]warn(44) : No MyBatis mapper was found in '[com.blog.mapper.*]' package. Please check your configuration.
+2021-06-29 14:07:49 [WARN ] [Logger.java]warn(44) : Property 'mapperLocations' was specified but matching resources are not found.
+2021-06-29 14:07:50 [WARN ] [OptionalLiveReloadServer.java]startServer(61) : Unable to start LiveReload server
+2021-06-29 14:07:50 [WARN ] [AbstractApplicationContext.java]refresh(591) : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 9000 is already in use
+2021-06-29 14:07:50 [ERROR] [LoggingFailureAnalysisReporter.java]report(40) : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 9000 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 9000 or configure this application to listen on another port.
+
+2021-06-29 14:10:50 [INFO ] [StartupInfoLogger.java]logStarting(55) : Starting BlogApplication using Java 1.8.0_292 on DESKTOP-1LJLV0R with PID 16760 (C:\Users\uk959\IdeaProjects\blog\build\classes\java\main started by uk959 in C:\Users\uk959\IdeaProjects\blog)
+2021-06-29 14:10:50 [INFO ] [SpringApplication.java]logStartupProfileInfo(663) : No active profile set, falling back to default profiles: default
+2021-06-29 14:10:51 [WARN ] [Logger.java]warn(44) : No MyBatis mapper was found in '[com.blog.mapper.*]' package. Please check your configuration.
+2021-06-29 14:10:51 [WARN ] [Logger.java]warn(44) : Property 'mapperLocations' was specified but matching resources are not found.
+2021-06-29 14:10:52 [INFO ] [StartupInfoLogger.java]logStarted(61) : Started BlogApplication in 2.662 seconds (JVM running for 4.025)
+2021-06-29 14:10:59 [INFO ] [ErrorExceptionConfig.java]handleError(33) : ########## ERROR!!! ##########
+2021-06-29 14:10:59 [INFO ] [ErrorExceptionConfig.java]handleError(33) : ########## ERROR!!! ##########
+2021-06-29 14:10:59 [INFO ] [ErrorExceptionConfig.java]handleError(34) : 에러 구분  : 404
+2021-06-29 14:10:59 [INFO ] [ErrorExceptionConfig.java]handleError(34) : 에러 구분  : 404
+2021-06-29 14:10:59 [INFO ] [ErrorExceptionConfig.java]handleError(35) : 발생일     : 20210629 02:10
+2021-06-29 14:10:59 [INFO ] [ErrorExceptionConfig.java]handleError(35) : 발생일     : 20210629 02:10
+2021-06-29 14:10:59 [INFO ] [ErrorExceptionConfig.java]handleError(36) : ##############################
+2021-06-29 14:10:59 [INFO ] [ErrorExceptionConfig.java]handleError(36) : ##############################
+2021-06-29 14:10:59 [INFO ] [ErrorExceptionConfig.java]handleError(33) : ########## ERROR!!! ##########
+2021-06-29 14:10:59 [INFO ] [ErrorExceptionConfig.java]handleError(34) : 에러 구분  : 404
+2021-06-29 14:10:59 [INFO ] [ErrorExceptionConfig.java]handleError(35) : 발생일     : 20210629 02:10
+2021-06-29 14:10:59 [INFO ] [ErrorExceptionConfig.java]handleError(36) : ##############################
+2021-06-29 14:10:59 [INFO ] [ErrorExceptionConfig.java]handleError(33) : ########## ERROR!!! ##########
+2021-06-29 14:10:59 [INFO ] [ErrorExceptionConfig.java]handleError(34) : 에러 구분  : 404
+2021-06-29 14:10:59 [INFO ] [ErrorExceptionConfig.java]handleError(35) : 발생일     : 20210629 02:10
+2021-06-29 14:10:59 [INFO ] [ErrorExceptionConfig.java]handleError(36) : ##############################
+2021-06-29 14:10:59 [INFO ] [ErrorExceptionConfig.java]handleError(33) : ########## ERROR!!! ##########
+2021-06-29 14:10:59 [INFO ] [ErrorExceptionConfig.java]handleError(34) : 에러 구분  : 404
+2021-06-29 14:10:59 [INFO ] [ErrorExceptionConfig.java]handleError(35) : 발생일     : 20210629 02:10
+2021-06-29 14:10:59 [INFO ] [ErrorExceptionConfig.java]handleError(36) : ##############################
+2021-06-29 14:10:59 [INFO ] [ErrorExceptionConfig.java]handleError(33) : ########## ERROR!!! ##########
+2021-06-29 14:10:59 [INFO ] [ErrorExceptionConfig.java]handleError(34) : 에러 구분  : 404
+2021-06-29 14:10:59 [INFO ] [ErrorExceptionConfig.java]handleError(35) : 발생일     : 20210629 02:10
+2021-06-29 14:10:59 [INFO ] [ErrorExceptionConfig.java]handleError(36) : ##############################
+2021-06-29 14:10:59 [INFO ] [ErrorExceptionConfig.java]handleError(33) : ########## ERROR!!! ##########
+2021-06-29 14:10:59 [INFO ] [ErrorExceptionConfig.java]handleError(34) : 에러 구분  : 404
+2021-06-29 14:10:59 [INFO ] [ErrorExceptionConfig.java]handleError(35) : 발생일     : 20210629 02:10
+2021-06-29 14:10:59 [INFO ] [ErrorExceptionConfig.java]handleError(36) : ##############################
+2021-06-29 15:35:41 [INFO ] [ErrorExceptionConfig.java]handleError(33) : ########## ERROR!!! ##########
+2021-06-29 15:35:41 [INFO ] [ErrorExceptionConfig.java]handleError(34) : 에러 구분  : 404
+2021-06-29 15:35:41 [INFO ] [ErrorExceptionConfig.java]handleError(35) : 발생일     : 20210629 03:35
+2021-06-29 15:35:41 [INFO ] [ErrorExceptionConfig.java]handleError(36) : ##############################
+2021-06-29 15:35:41 [INFO ] [ErrorExceptionConfig.java]handleError(33) : ########## ERROR!!! ##########
+2021-06-29 15:35:41 [INFO ] [ErrorExceptionConfig.java]handleError(34) : 에러 구분  : 404
+2021-06-29 15:35:41 [INFO ] [ErrorExceptionConfig.java]handleError(33) : ########## ERROR!!! ##########
+2021-06-29 15:35:41 [INFO ] [ErrorExceptionConfig.java]handleError(35) : 발생일     : 20210629 03:35
+2021-06-29 15:35:41 [INFO ] [ErrorExceptionConfig.java]handleError(34) : 에러 구분  : 404
+2021-06-29 15:35:41 [INFO ] [ErrorExceptionConfig.java]handleError(35) : 발생일     : 20210629 03:35
+2021-06-29 15:35:41 [INFO ] [ErrorExceptionConfig.java]handleError(36) : ##############################
+2021-06-29 15:35:41 [INFO ] [ErrorExceptionConfig.java]handleError(36) : ##############################
+2021-06-29 16:09:12 [INFO ] [ErrorExceptionConfig.java]handleError(33) : ########## ERROR!!! ##########
+2021-06-29 16:09:12 [INFO ] [ErrorExceptionConfig.java]handleError(33) : ########## ERROR!!! ##########
+2021-06-29 16:09:12 [INFO ] [ErrorExceptionConfig.java]handleError(34) : 에러 구분  : 404
+2021-06-29 16:09:12 [INFO ] [ErrorExceptionConfig.java]handleError(34) : 에러 구분  : 404
+2021-06-29 16:09:12 [INFO ] [ErrorExceptionConfig.java]handleError(35) : 발생일     : 20210629 04:09
+2021-06-29 16:09:12 [INFO ] [ErrorExceptionConfig.java]handleError(35) : 발생일     : 20210629 04:09
+2021-06-29 16:09:12 [INFO ] [ErrorExceptionConfig.java]handleError(36) : ##############################
+2021-06-29 16:09:12 [INFO ] [ErrorExceptionConfig.java]handleError(36) : ##############################
+2021-06-29 16:09:34 [INFO ] [ErrorExceptionConfig.java]handleError(33) : ########## ERROR!!! ##########
+2021-06-29 16:09:34 [INFO ] [ErrorExceptionConfig.java]handleError(33) : ########## ERROR!!! ##########
+2021-06-29 16:09:34 [INFO ] [ErrorExceptionConfig.java]handleError(34) : 에러 구분  : 404
+2021-06-29 16:09:34 [INFO ] [ErrorExceptionConfig.java]handleError(34) : 에러 구분  : 404
+2021-06-29 16:09:34 [INFO ] [ErrorExceptionConfig.java]handleError(35) : 발생일     : 20210629 04:09
+2021-06-29 16:09:34 [INFO ] [ErrorExceptionConfig.java]handleError(35) : 발생일     : 20210629 04:09
+2021-06-29 16:09:34 [INFO ] [ErrorExceptionConfig.java]handleError(36) : ##############################
+2021-06-29 16:09:34 [INFO ] [ErrorExceptionConfig.java]handleError(36) : ##############################
+2021-06-29 16:15:18 [INFO ] [ErrorExceptionConfig.java]handleError(33) : ########## ERROR!!! ##########
+2021-06-29 16:15:18 [INFO ] [ErrorExceptionConfig.java]handleError(34) : 에러 구분  : 404
+2021-06-29 16:15:18 [INFO ] [ErrorExceptionConfig.java]handleError(35) : 발생일     : 20210629 04:15
+2021-06-29 16:15:18 [INFO ] [ErrorExceptionConfig.java]handleError(36) : ##############################
+2021-06-29 16:15:18 [INFO ] [ErrorExceptionConfig.java]handleError(33) : ########## ERROR!!! ##########
+2021-06-29 16:15:18 [INFO ] [ErrorExceptionConfig.java]handleError(34) : 에러 구분  : 404
+2021-06-29 16:15:18 [INFO ] [ErrorExceptionConfig.java]handleError(35) : 발생일     : 20210629 04:15
+2021-06-29 16:15:18 [INFO ] [ErrorExceptionConfig.java]handleError(36) : ##############################
+2021-06-29 16:15:18 [INFO ] [ErrorExceptionConfig.java]handleError(33) : ########## ERROR!!! ##########
+2021-06-29 16:15:18 [INFO ] [ErrorExceptionConfig.java]handleError(34) : 에러 구분  : 404
+2021-06-29 16:15:18 [INFO ] [ErrorExceptionConfig.java]handleError(35) : 발생일     : 20210629 04:15
+2021-06-29 16:15:18 [INFO ] [ErrorExceptionConfig.java]handleError(36) : ##############################
+2021-06-29 16:15:18 [INFO ] [ErrorExceptionConfig.java]handleError(33) : ########## ERROR!!! ##########
+2021-06-29 16:15:18 [INFO ] [ErrorExceptionConfig.java]handleError(34) : 에러 구분  : 404
+2021-06-29 16:15:18 [INFO ] [ErrorExceptionConfig.java]handleError(35) : 발생일     : 20210629 04:15
+2021-06-29 16:15:18 [INFO ] [ErrorExceptionConfig.java]handleError(36) : ##############################
+2021-06-29 16:25:07 [INFO ] [StartupInfoLogger.java]logStarting(55) : Starting BlogApplication using Java 1.8.0_292 on DESKTOP-1LJLV0R with PID 17480 (C:\Users\uk959\IdeaProjects\blog\build\classes\java\main started by uk959 in C:\Users\uk959\IdeaProjects\blog)
+2021-06-29 16:25:07 [INFO ] [SpringApplication.java]logStartupProfileInfo(663) : No active profile set, falling back to default profiles: default
+2021-06-29 16:25:08 [WARN ] [Logger.java]warn(44) : No MyBatis mapper was found in '[com.blog.mapper.*]' package. Please check your configuration.
+2021-06-29 16:25:08 [WARN ] [Logger.java]warn(44) : Property 'mapperLocations' was specified but matching resources are not found.
+2021-06-29 16:25:09 [INFO ] [StartupInfoLogger.java]logStarted(61) : Started BlogApplication in 2.91 seconds (JVM running for 4.48)
+2021-06-29 16:25:15 [INFO ] [ErrorExceptionConfig.java]handleError(33) : ########## ERROR!!! ##########
+2021-06-29 16:25:15 [INFO ] [ErrorExceptionConfig.java]handleError(34) : 에러 구분  : 404
+2021-06-29 16:25:15 [INFO ] [ErrorExceptionConfig.java]handleError(35) : 발생일     : 20210629 04:25
+2021-06-29 16:25:15 [INFO ] [ErrorExceptionConfig.java]handleError(36) : ##############################
+2021-06-29 16:25:15 [INFO ] [ErrorExceptionConfig.java]handleError(33) : ########## ERROR!!! ##########
+2021-06-29 16:25:15 [INFO ] [ErrorExceptionConfig.java]handleError(34) : 에러 구분  : 404
+2021-06-29 16:25:15 [INFO ] [ErrorExceptionConfig.java]handleError(35) : 발생일     : 20210629 04:25
+2021-06-29 16:25:15 [INFO ] [ErrorExceptionConfig.java]handleError(36) : ##############################
+2021-06-29 16:25:15 [INFO ] [ErrorExceptionConfig.java]handleError(33) : ########## ERROR!!! ##########
+2021-06-29 16:25:15 [INFO ] [ErrorExceptionConfig.java]handleError(34) : 에러 구분  : 404
+2021-06-29 16:25:15 [INFO ] [ErrorExceptionConfig.java]handleError(35) : 발생일     : 20210629 04:25
+2021-06-29 16:25:15 [INFO ] [ErrorExceptionConfig.java]handleError(36) : ##############################
+2021-06-29 16:25:16 [INFO ] [ErrorExceptionConfig.java]handleError(33) : ########## ERROR!!! ##########
+2021-06-29 16:25:16 [INFO ] [ErrorExceptionConfig.java]handleError(34) : 에러 구분  : 404
+2021-06-29 16:25:16 [INFO ] [ErrorExceptionConfig.java]handleError(35) : 발생일     : 20210629 04:25
+2021-06-29 16:25:16 [INFO ] [ErrorExceptionConfig.java]handleError(36) : ##############################
+2021-06-29 16:25:16 [INFO ] [ErrorExceptionConfig.java]handleError(33) : ########## ERROR!!! ##########
+2021-06-29 16:25:16 [INFO ] [ErrorExceptionConfig.java]handleError(34) : 에러 구분  : 404
+2021-06-29 16:25:16 [INFO ] [ErrorExceptionConfig.java]handleError(35) : 발생일     : 20210629 04:25
+2021-06-29 16:25:16 [INFO ] [ErrorExceptionConfig.java]handleError(36) : ##############################
+2021-06-29 16:25:16 [INFO ] [ErrorExceptionConfig.java]handleError(33) : ########## ERROR!!! ##########
+2021-06-29 16:25:16 [INFO ] [ErrorExceptionConfig.java]handleError(34) : 에러 구분  : 404
+2021-06-29 16:25:16 [INFO ] [ErrorExceptionConfig.java]handleError(35) : 발생일     : 20210629 04:25
+2021-06-29 16:25:16 [INFO ] [ErrorExceptionConfig.java]handleError(36) : ##############################
+2021-06-29 16:25:31 [INFO ] [ErrorExceptionConfig.java]handleError(33) : ########## ERROR!!! ##########
+2021-06-29 16:25:31 [INFO ] [ErrorExceptionConfig.java]handleError(33) : ########## ERROR!!! ##########
+2021-06-29 16:25:31 [INFO ] [ErrorExceptionConfig.java]handleError(34) : 에러 구분  : 404
+2021-06-29 16:25:31 [INFO ] [ErrorExceptionConfig.java]handleError(34) : 에러 구분  : 404
+2021-06-29 16:25:31 [INFO ] [ErrorExceptionConfig.java]handleError(35) : 발생일     : 20210629 04:25
+2021-06-29 16:25:31 [INFO ] [ErrorExceptionConfig.java]handleError(35) : 발생일     : 20210629 04:25
+2021-06-29 16:25:31 [INFO ] [ErrorExceptionConfig.java]handleError(36) : ##############################
+2021-06-29 16:25:31 [INFO ] [ErrorExceptionConfig.java]handleError(36) : ##############################
+2021-06-29 16:27:37 [INFO ] [ErrorExceptionConfig.java]handleError(33) : ########## ERROR!!! ##########
+2021-06-29 16:27:37 [INFO ] [ErrorExceptionConfig.java]handleError(33) : ########## ERROR!!! ##########
+2021-06-29 16:27:37 [INFO ] [ErrorExceptionConfig.java]handleError(34) : 에러 구분  : 404
+2021-06-29 16:27:37 [INFO ] [ErrorExceptionConfig.java]handleError(34) : 에러 구분  : 404
+2021-06-29 16:27:37 [INFO ] [ErrorExceptionConfig.java]handleError(35) : 발생일     : 20210629 04:27
+2021-06-29 16:27:37 [INFO ] [ErrorExceptionConfig.java]handleError(35) : 발생일     : 20210629 04:27
+2021-06-29 16:27:37 [INFO ] [ErrorExceptionConfig.java]handleError(36) : ##############################
+2021-06-29 16:27:37 [INFO ] [ErrorExceptionConfig.java]handleError(36) : ##############################
+2021-06-29 16:29:41 [INFO ] [StartupInfoLogger.java]logStarting(55) : Starting BlogApplication using Java 1.8.0_292 on DESKTOP-1LJLV0R with PID 26080 (C:\Users\uk959\IdeaProjects\blog\build\classes\java\main started by uk959 in C:\Users\uk959\IdeaProjects\blog)
+2021-06-29 16:29:41 [INFO ] [SpringApplication.java]logStartupProfileInfo(663) : No active profile set, falling back to default profiles: default
+2021-06-29 16:29:42 [WARN ] [Logger.java]warn(44) : No MyBatis mapper was found in '[com.blog.mapper.*]' package. Please check your configuration.
+2021-06-29 16:29:43 [WARN ] [Logger.java]warn(44) : Property 'mapperLocations' was specified but matching resources are not found.
+2021-06-29 16:29:43 [INFO ] [StartupInfoLogger.java]logStarted(61) : Started BlogApplication in 2.542 seconds (JVM running for 3.915)
+2021-06-29 16:29:48 [INFO ] [ErrorExceptionConfig.java]handleError(33) : ########## ERROR!!! ##########
+2021-06-29 16:29:48 [INFO ] [ErrorExceptionConfig.java]handleError(34) : 에러 구분  : 404
+2021-06-29 16:29:48 [INFO ] [ErrorExceptionConfig.java]handleError(35) : 발생일     : 20210629 04:29
+2021-06-29 16:29:48 [INFO ] [ErrorExceptionConfig.java]handleError(36) : ##############################
+2021-06-29 16:29:48 [INFO ] [ErrorExceptionConfig.java]handleError(33) : ########## ERROR!!! ##########
+2021-06-29 16:29:48 [INFO ] [ErrorExceptionConfig.java]handleError(34) : 에러 구분  : 404
+2021-06-29 16:29:48 [INFO ] [ErrorExceptionConfig.java]handleError(35) : 발생일     : 20210629 04:29
+2021-06-29 16:29:48 [INFO ] [ErrorExceptionConfig.java]handleError(36) : ##############################
+2021-06-29 16:29:48 [INFO ] [ErrorExceptionConfig.java]handleError(33) : ########## ERROR!!! ##########
+2021-06-29 16:29:48 [INFO ] [ErrorExceptionConfig.java]handleError(34) : 에러 구분  : 404
+2021-06-29 16:29:48 [INFO ] [ErrorExceptionConfig.java]handleError(35) : 발생일     : 20210629 04:29
+2021-06-29 16:29:48 [INFO ] [ErrorExceptionConfig.java]handleError(36) : ##############################
+2021-06-29 16:29:48 [INFO ] [ErrorExceptionConfig.java]handleError(33) : ########## ERROR!!! ##########
+2021-06-29 16:29:48 [INFO ] [ErrorExceptionConfig.java]handleError(34) : 에러 구분  : 404
+2021-06-29 16:29:48 [INFO ] [ErrorExceptionConfig.java]handleError(35) : 발생일     : 20210629 04:29
+2021-06-29 16:29:48 [INFO ] [ErrorExceptionConfig.java]handleError(36) : ##############################
+2021-06-29 16:29:55 [INFO ] [ErrorExceptionConfig.java]handleError(33) : ########## ERROR!!! ##########
+2021-06-29 16:29:55 [INFO ] [ErrorExceptionConfig.java]handleError(34) : 에러 구분  : 404
+2021-06-29 16:29:55 [INFO ] [ErrorExceptionConfig.java]handleError(33) : ########## ERROR!!! ##########
+2021-06-29 16:29:55 [INFO ] [ErrorExceptionConfig.java]handleError(35) : 발생일     : 20210629 04:29
+2021-06-29 16:29:55 [INFO ] [ErrorExceptionConfig.java]handleError(36) : ##############################
+2021-06-29 16:29:55 [INFO ] [ErrorExceptionConfig.java]handleError(34) : 에러 구분  : 404
+2021-06-29 16:29:55 [INFO ] [ErrorExceptionConfig.java]handleError(35) : 발생일     : 20210629 04:29
+2021-06-29 16:29:55 [INFO ] [ErrorExceptionConfig.java]handleError(36) : ##############################
+2021-06-29 16:33:24 [INFO ] [StartupInfoLogger.java]logStarting(55) : Starting BlogApplication using Java 1.8.0_292 on DESKTOP-1LJLV0R with PID 16072 (C:\Users\uk959\IdeaProjects\blog\build\classes\java\main started by uk959 in C:\Users\uk959\IdeaProjects\blog)
+2021-06-29 16:33:24 [INFO ] [SpringApplication.java]logStartupProfileInfo(663) : No active profile set, falling back to default profiles: default
+2021-06-29 16:33:25 [WARN ] [Logger.java]warn(44) : No MyBatis mapper was found in '[com.blog.mapper.*]' package. Please check your configuration.
+2021-06-29 16:33:25 [WARN ] [Logger.java]warn(44) : Property 'mapperLocations' was specified but matching resources are not found.
+2021-06-29 16:33:26 [INFO ] [StartupInfoLogger.java]logStarted(61) : Started BlogApplication in 2.52 seconds (JVM running for 3.91)
+2021-06-29 16:33:30 [INFO ] [ErrorExceptionConfig.java]handleError(33) : ########## ERROR!!! ##########
+2021-06-29 16:33:30 [INFO ] [ErrorExceptionConfig.java]handleError(34) : 에러 구분  : 404
+2021-06-29 16:33:30 [INFO ] [ErrorExceptionConfig.java]handleError(35) : 발생일     : 20210629 04:33
+2021-06-29 16:33:30 [INFO ] [ErrorExceptionConfig.java]handleError(36) : ##############################
+2021-06-29 16:33:30 [INFO ] [ErrorExceptionConfig.java]handleError(33) : ########## ERROR!!! ##########
+2021-06-29 16:33:30 [INFO ] [ErrorExceptionConfig.java]handleError(34) : 에러 구분  : 404
+2021-06-29 16:33:30 [INFO ] [ErrorExceptionConfig.java]handleError(35) : 발생일     : 20210629 04:33
+2021-06-29 16:33:30 [INFO ] [ErrorExceptionConfig.java]handleError(36) : ##############################
+2021-06-29 16:33:30 [INFO ] [ErrorExceptionConfig.java]handleError(33) : ########## ERROR!!! ##########
+2021-06-29 16:33:30 [INFO ] [ErrorExceptionConfig.java]handleError(34) : 에러 구분  : 404
+2021-06-29 16:33:30 [INFO ] [ErrorExceptionConfig.java]handleError(35) : 발생일     : 20210629 04:33
+2021-06-29 16:33:30 [INFO ] [ErrorExceptionConfig.java]handleError(36) : ##############################
+2021-06-29 16:33:30 [INFO ] [ErrorExceptionConfig.java]handleError(33) : ########## ERROR!!! ##########
+2021-06-29 16:33:30 [INFO ] [ErrorExceptionConfig.java]handleError(34) : 에러 구분  : 404
+2021-06-29 16:33:30 [INFO ] [ErrorExceptionConfig.java]handleError(35) : 발생일     : 20210629 04:33
+2021-06-29 16:33:30 [INFO ] [ErrorExceptionConfig.java]handleError(36) : ##############################
+2021-06-29 16:33:30 [INFO ] [ErrorExceptionConfig.java]handleError(33) : ########## ERROR!!! ##########
+2021-06-29 16:33:30 [INFO ] [ErrorExceptionConfig.java]handleError(34) : 에러 구분  : 404
+2021-06-29 16:33:30 [INFO ] [ErrorExceptionConfig.java]handleError(35) : 발생일     : 20210629 04:33
+2021-06-29 16:33:30 [INFO ] [ErrorExceptionConfig.java]handleError(36) : ##############################
+2021-06-29 16:33:30 [INFO ] [ErrorExceptionConfig.java]handleError(33) : ########## ERROR!!! ##########
+2021-06-29 16:33:30 [INFO ] [ErrorExceptionConfig.java]handleError(34) : 에러 구분  : 404
+2021-06-29 16:33:30 [INFO ] [ErrorExceptionConfig.java]handleError(35) : 발생일     : 20210629 04:33
+2021-06-29 16:33:30 [INFO ] [ErrorExceptionConfig.java]handleError(36) : ##############################
+2021-06-29 16:34:09 [INFO ] [ErrorExceptionConfig.java]handleError(33) : ########## ERROR!!! ##########
+2021-06-29 16:34:09 [INFO ] [ErrorExceptionConfig.java]handleError(34) : 에러 구분  : 404
+2021-06-29 16:34:09 [INFO ] [ErrorExceptionConfig.java]handleError(35) : 발생일     : 20210629 04:34
+2021-06-29 16:34:09 [INFO ] [ErrorExceptionConfig.java]handleError(36) : ##############################
+2021-06-29 16:34:10 [INFO ] [ErrorExceptionConfig.java]handleError(33) : ########## ERROR!!! ##########
+2021-06-29 16:34:10 [INFO ] [ErrorExceptionConfig.java]handleError(34) : 에러 구분  : 404
+2021-06-29 16:34:10 [INFO ] [ErrorExceptionConfig.java]handleError(35) : 발생일     : 20210629 04:34
+2021-06-29 16:34:10 [INFO ] [ErrorExceptionConfig.java]handleError(36) : ##############################
+2021-06-29 16:34:13 [INFO ] [ErrorExceptionConfig.java]handleError(33) : ########## ERROR!!! ##########
+2021-06-29 16:34:13 [INFO ] [ErrorExceptionConfig.java]handleError(34) : 에러 구분  : 404
+2021-06-29 16:34:13 [INFO ] [ErrorExceptionConfig.java]handleError(35) : 발생일     : 20210629 04:34
+2021-06-29 16:34:13 [INFO ] [ErrorExceptionConfig.java]handleError(33) : ########## ERROR!!! ##########
+2021-06-29 16:34:13 [INFO ] [ErrorExceptionConfig.java]handleError(36) : ##############################
+2021-06-29 16:34:13 [INFO ] [ErrorExceptionConfig.java]handleError(34) : 에러 구분  : 404
+2021-06-29 16:34:13 [INFO ] [ErrorExceptionConfig.java]handleError(35) : 발생일     : 20210629 04:34
+2021-06-29 16:34:13 [INFO ] [ErrorExceptionConfig.java]handleError(36) : ##############################
+2021-06-29 16:47:09 [INFO ] [StartupInfoLogger.java]logStarting(55) : Starting BlogApplication using Java 1.8.0_292 on DESKTOP-1LJLV0R with PID 26304 (C:\Users\uk959\IdeaProjects\blog\build\classes\java\main started by uk959 in C:\Users\uk959\IdeaProjects\blog)
+2021-06-29 16:47:09 [INFO ] [SpringApplication.java]logStartupProfileInfo(663) : No active profile set, falling back to default profiles: default
+2021-06-29 16:47:10 [WARN ] [Logger.java]warn(44) : No MyBatis mapper was found in '[com.blog.mapper.*]' package. Please check your configuration.
+2021-06-29 16:47:11 [WARN ] [Logger.java]warn(44) : Property 'mapperLocations' was specified but matching resources are not found.
+2021-06-29 16:47:12 [INFO ] [StartupInfoLogger.java]logStarted(61) : Started BlogApplication in 2.925 seconds (JVM running for 4.455)
+2021-06-29 16:47:12 [ERROR] [TemplateEngine.java]process(1136) : [THYMELEAF][http-nio-9000-exec-1] Exception processing template "index": An error happened during template parsing (template: "class path resource [templates/index.html]")
+org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "class path resource [templates/index.html]")
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:241)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parseStandalone(AbstractMarkupTemplateParser.java:100)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:666)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:366)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:190)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1396)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1141)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1080)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.attoparser.ParseException: Cannot execute division: operands are "body" and "main" (template: "index" - line 6, col 11)
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:393)
+	at org.attoparser.MarkupParser.parse(MarkupParser.java:257)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:230)
+	... 48 common frames omitted
+Caused by: org.thymeleaf.exceptions.TemplateProcessingException: Cannot execute division: operands are "body" and "main" (template: "index" - line 6, col 11)
+	at org.thymeleaf.standard.expression.DivisionExpression.executeDivision(DivisionExpression.java:109)
+	at org.thymeleaf.standard.expression.ComplexExpression.executeComplex(ComplexExpression.java:71)
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:112)
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:138)
+	at org.thymeleaf.standard.expression.FragmentExpression.doCreateExecutedFragmentExpression(FragmentExpression.java:458)
+	at org.thymeleaf.standard.expression.FragmentExpression.createExecutedFragmentExpression(FragmentExpression.java:426)
+	at org.thymeleaf.standard.processor.AbstractStandardFragmentInsertionTagProcessor.computeFragment(AbstractStandardFragmentInsertionTagProcessor.java:359)
+	at org.thymeleaf.standard.processor.AbstractStandardFragmentInsertionTagProcessor.doProcess(AbstractStandardFragmentInsertionTagProcessor.java:110)
+	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:74)
+	at org.thymeleaf.processor.element.AbstractElementTagProcessor.process(AbstractElementTagProcessor.java:95)
+	at org.thymeleaf.util.ProcessorConfigurationUtils$ElementTagProcessorWrapper.process(ProcessorConfigurationUtils.java:633)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(ProcessorTemplateHandler.java:1314)
+	at org.thymeleaf.engine.TemplateHandlerAdapterMarkupHandler.handleOpenElementEnd(TemplateHandlerAdapterMarkupHandler.java:304)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler$InlineMarkupAdapterPreProcessorHandler.handleOpenElementEnd(InlinedOutputExpressionMarkupHandler.java:278)
+	at org.thymeleaf.standard.inline.OutputExpressionInlinePreProcessorHandler.handleOpenElementEnd(OutputExpressionInlinePreProcessorHandler.java:186)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler.handleOpenElementEnd(InlinedOutputExpressionMarkupHandler.java:124)
+	at org.attoparser.HtmlElement.handleOpenElementEnd(HtmlElement.java:109)
+	at org.attoparser.HtmlMarkupHandler.handleOpenElementEnd(HtmlMarkupHandler.java:297)
+	at org.attoparser.MarkupEventProcessorHandler.handleOpenElementEnd(MarkupEventProcessorHandler.java:402)
+	at org.attoparser.ParsingElementMarkupUtil.parseOpenElement(ParsingElementMarkupUtil.java:159)
+	at org.attoparser.MarkupParser.parseBuffer(MarkupParser.java:710)
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:301)
+	... 50 common frames omitted
+2021-06-29 16:47:12 [ERROR] [DirectJDKLog.java]log(175) : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "class path resource [templates/index.html]")] with root cause
+org.thymeleaf.exceptions.TemplateProcessingException: Cannot execute division: operands are "body" and "main" (template: "index" - line 6, col 11)
+	at org.thymeleaf.standard.expression.DivisionExpression.executeDivision(DivisionExpression.java:109)
+	at org.thymeleaf.standard.expression.ComplexExpression.executeComplex(ComplexExpression.java:71)
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:112)
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:138)
+	at org.thymeleaf.standard.expression.FragmentExpression.doCreateExecutedFragmentExpression(FragmentExpression.java:458)
+	at org.thymeleaf.standard.expression.FragmentExpression.createExecutedFragmentExpression(FragmentExpression.java:426)
+	at org.thymeleaf.standard.processor.AbstractStandardFragmentInsertionTagProcessor.computeFragment(AbstractStandardFragmentInsertionTagProcessor.java:359)
+	at org.thymeleaf.standard.processor.AbstractStandardFragmentInsertionTagProcessor.doProcess(AbstractStandardFragmentInsertionTagProcessor.java:110)
+	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:74)
+	at org.thymeleaf.processor.element.AbstractElementTagProcessor.process(AbstractElementTagProcessor.java:95)
+	at org.thymeleaf.util.ProcessorConfigurationUtils$ElementTagProcessorWrapper.process(ProcessorConfigurationUtils.java:633)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(ProcessorTemplateHandler.java:1314)
+	at org.thymeleaf.engine.TemplateHandlerAdapterMarkupHandler.handleOpenElementEnd(TemplateHandlerAdapterMarkupHandler.java:304)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler$InlineMarkupAdapterPreProcessorHandler.handleOpenElementEnd(InlinedOutputExpressionMarkupHandler.java:278)
+	at org.thymeleaf.standard.inline.OutputExpressionInlinePreProcessorHandler.handleOpenElementEnd(OutputExpressionInlinePreProcessorHandler.java:186)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler.handleOpenElementEnd(InlinedOutputExpressionMarkupHandler.java:124)
+	at org.attoparser.HtmlElement.handleOpenElementEnd(HtmlElement.java:109)
+	at org.attoparser.HtmlMarkupHandler.handleOpenElementEnd(HtmlMarkupHandler.java:297)
+	at org.attoparser.MarkupEventProcessorHandler.handleOpenElementEnd(MarkupEventProcessorHandler.java:402)
+	at org.attoparser.ParsingElementMarkupUtil.parseOpenElement(ParsingElementMarkupUtil.java:159)
+	at org.attoparser.MarkupParser.parseBuffer(MarkupParser.java:710)
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:301)
+	at org.attoparser.MarkupParser.parse(MarkupParser.java:257)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:230)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parseStandalone(AbstractMarkupTemplateParser.java:100)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:666)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:366)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:190)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1396)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1141)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1080)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2021-06-29 16:47:12 [INFO ] [ErrorExceptionConfig.java]handleError(47) : ########## ERROR!!! ##########
+2021-06-29 16:47:12 [INFO ] [ErrorExceptionConfig.java]handleError(48) : 에러 구분  : 500
+2021-06-29 16:47:12 [INFO ] [ErrorExceptionConfig.java]handleError(49) : 발생일     : 20210629 04:47
+2021-06-29 16:47:12 [INFO ] [ErrorExceptionConfig.java]handleError(50) : ##############################
+2021-06-29 16:50:58 [INFO ] [StartupInfoLogger.java]logStarting(55) : Starting BlogApplication using Java 1.8.0_292 on DESKTOP-1LJLV0R with PID 14112 (C:\Users\uk959\IdeaProjects\blog\build\classes\java\main started by uk959 in C:\Users\uk959\IdeaProjects\blog)
+2021-06-29 16:50:58 [INFO ] [SpringApplication.java]logStartupProfileInfo(663) : No active profile set, falling back to default profiles: default
+2021-06-29 16:50:59 [WARN ] [Logger.java]warn(44) : No MyBatis mapper was found in '[com.blog.mapper.*]' package. Please check your configuration.
+2021-06-29 16:50:59 [WARN ] [Logger.java]warn(44) : Property 'mapperLocations' was specified but matching resources are not found.
+2021-06-29 16:51:00 [INFO ] [StartupInfoLogger.java]logStarted(61) : Started BlogApplication in 2.638 seconds (JVM running for 3.972)
+2021-06-29 16:51:02 [INFO ] [ErrorExceptionConfig.java]handleError(33) : ########## ERROR!!! ##########
+2021-06-29 16:51:02 [INFO ] [ErrorExceptionConfig.java]handleError(34) : 에러 구분  : 404
+2021-06-29 16:51:02 [INFO ] [ErrorExceptionConfig.java]handleError(35) : 발생일     : 20210629 04:51
+2021-06-29 16:51:02 [INFO ] [ErrorExceptionConfig.java]handleError(36) : ##############################
+2021-06-29 16:56:13 [INFO ] [StartupInfoLogger.java]logStarting(55) : Starting BlogApplication using Java 1.8.0_292 on DESKTOP-1LJLV0R with PID 22328 (C:\Users\uk959\IdeaProjects\blog\build\classes\java\main started by uk959 in C:\Users\uk959\IdeaProjects\blog)
+2021-06-29 16:56:13 [INFO ] [SpringApplication.java]logStartupProfileInfo(663) : No active profile set, falling back to default profiles: default
+2021-06-29 16:56:13 [WARN ] [Logger.java]warn(44) : No MyBatis mapper was found in '[com.blog.mapper.*]' package. Please check your configuration.
+2021-06-29 16:56:14 [WARN ] [Logger.java]warn(44) : Property 'mapperLocations' was specified but matching resources are not found.
+2021-06-29 16:56:15 [INFO ] [StartupInfoLogger.java]logStarted(61) : Started BlogApplication in 2.74 seconds (JVM running for 4.115)
+2021-06-29 16:56:16 [ERROR] [TemplateEngine.java]process(1136) : [THYMELEAF][http-nio-9000-exec-1] Exception processing template "index": An error happened during template parsing (template: "class path resource [templates/index.html]")
+org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "class path resource [templates/index.html]")
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:241)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parseStandalone(AbstractMarkupTemplateParser.java:100)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:666)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:366)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:190)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1396)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1141)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1080)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.attoparser.ParseException: Cannot execute division: operands are "body" and "main" (template: "index" - line 5, col 11)
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:393)
+	at org.attoparser.MarkupParser.parse(MarkupParser.java:257)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:230)
+	... 48 common frames omitted
+Caused by: org.thymeleaf.exceptions.TemplateProcessingException: Cannot execute division: operands are "body" and "main" (template: "index" - line 5, col 11)
+	at org.thymeleaf.standard.expression.DivisionExpression.executeDivision(DivisionExpression.java:109)
+	at org.thymeleaf.standard.expression.ComplexExpression.executeComplex(ComplexExpression.java:71)
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:112)
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:138)
+	at org.thymeleaf.standard.expression.FragmentExpression.doCreateExecutedFragmentExpression(FragmentExpression.java:458)
+	at org.thymeleaf.standard.expression.FragmentExpression.createExecutedFragmentExpression(FragmentExpression.java:426)
+	at org.thymeleaf.standard.processor.AbstractStandardFragmentInsertionTagProcessor.computeFragment(AbstractStandardFragmentInsertionTagProcessor.java:359)
+	at org.thymeleaf.standard.processor.AbstractStandardFragmentInsertionTagProcessor.doProcess(AbstractStandardFragmentInsertionTagProcessor.java:110)
+	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:74)
+	at org.thymeleaf.processor.element.AbstractElementTagProcessor.process(AbstractElementTagProcessor.java:95)
+	at org.thymeleaf.util.ProcessorConfigurationUtils$ElementTagProcessorWrapper.process(ProcessorConfigurationUtils.java:633)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(ProcessorTemplateHandler.java:1314)
+	at org.thymeleaf.engine.TemplateHandlerAdapterMarkupHandler.handleOpenElementEnd(TemplateHandlerAdapterMarkupHandler.java:304)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler$InlineMarkupAdapterPreProcessorHandler.handleOpenElementEnd(InlinedOutputExpressionMarkupHandler.java:278)
+	at org.thymeleaf.standard.inline.OutputExpressionInlinePreProcessorHandler.handleOpenElementEnd(OutputExpressionInlinePreProcessorHandler.java:186)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler.handleOpenElementEnd(InlinedOutputExpressionMarkupHandler.java:124)
+	at org.attoparser.HtmlElement.handleOpenElementEnd(HtmlElement.java:109)
+	at org.attoparser.HtmlMarkupHandler.handleOpenElementEnd(HtmlMarkupHandler.java:297)
+	at org.attoparser.MarkupEventProcessorHandler.handleOpenElementEnd(MarkupEventProcessorHandler.java:402)
+	at org.attoparser.ParsingElementMarkupUtil.parseOpenElement(ParsingElementMarkupUtil.java:159)
+	at org.attoparser.MarkupParser.parseBuffer(MarkupParser.java:710)
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:301)
+	... 50 common frames omitted
+2021-06-29 16:56:16 [ERROR] [DirectJDKLog.java]log(175) : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "class path resource [templates/index.html]")] with root cause
+org.thymeleaf.exceptions.TemplateProcessingException: Cannot execute division: operands are "body" and "main" (template: "index" - line 5, col 11)
+	at org.thymeleaf.standard.expression.DivisionExpression.executeDivision(DivisionExpression.java:109)
+	at org.thymeleaf.standard.expression.ComplexExpression.executeComplex(ComplexExpression.java:71)
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:112)
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:138)
+	at org.thymeleaf.standard.expression.FragmentExpression.doCreateExecutedFragmentExpression(FragmentExpression.java:458)
+	at org.thymeleaf.standard.expression.FragmentExpression.createExecutedFragmentExpression(FragmentExpression.java:426)
+	at org.thymeleaf.standard.processor.AbstractStandardFragmentInsertionTagProcessor.computeFragment(AbstractStandardFragmentInsertionTagProcessor.java:359)
+	at org.thymeleaf.standard.processor.AbstractStandardFragmentInsertionTagProcessor.doProcess(AbstractStandardFragmentInsertionTagProcessor.java:110)
+	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:74)
+	at org.thymeleaf.processor.element.AbstractElementTagProcessor.process(AbstractElementTagProcessor.java:95)
+	at org.thymeleaf.util.ProcessorConfigurationUtils$ElementTagProcessorWrapper.process(ProcessorConfigurationUtils.java:633)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(ProcessorTemplateHandler.java:1314)
+	at org.thymeleaf.engine.TemplateHandlerAdapterMarkupHandler.handleOpenElementEnd(TemplateHandlerAdapterMarkupHandler.java:304)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler$InlineMarkupAdapterPreProcessorHandler.handleOpenElementEnd(InlinedOutputExpressionMarkupHandler.java:278)
+	at org.thymeleaf.standard.inline.OutputExpressionInlinePreProcessorHandler.handleOpenElementEnd(OutputExpressionInlinePreProcessorHandler.java:186)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler.handleOpenElementEnd(InlinedOutputExpressionMarkupHandler.java:124)
+	at org.attoparser.HtmlElement.handleOpenElementEnd(HtmlElement.java:109)
+	at org.attoparser.HtmlMarkupHandler.handleOpenElementEnd(HtmlMarkupHandler.java:297)
+	at org.attoparser.MarkupEventProcessorHandler.handleOpenElementEnd(MarkupEventProcessorHandler.java:402)
+	at org.attoparser.ParsingElementMarkupUtil.parseOpenElement(ParsingElementMarkupUtil.java:159)
+	at org.attoparser.MarkupParser.parseBuffer(MarkupParser.java:710)
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:301)
+	at org.attoparser.MarkupParser.parse(MarkupParser.java:257)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:230)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parseStandalone(AbstractMarkupTemplateParser.java:100)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:666)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:366)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:190)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1396)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1141)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1080)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2021-06-29 16:56:16 [INFO ] [ErrorExceptionConfig.java]handleError(47) : ########## ERROR!!! ##########
+2021-06-29 16:56:16 [INFO ] [ErrorExceptionConfig.java]handleError(48) : 에러 구분  : 500
+2021-06-29 16:56:16 [INFO ] [ErrorExceptionConfig.java]handleError(49) : 발생일     : 20210629 04:56
+2021-06-29 16:56:16 [INFO ] [ErrorExceptionConfig.java]handleError(50) : ##############################
+2021-06-29 16:56:55 [INFO ] [StartupInfoLogger.java]logStarting(55) : Starting BlogApplication using Java 1.8.0_292 on DESKTOP-1LJLV0R with PID 27392 (C:\Users\uk959\IdeaProjects\blog\build\classes\java\main started by uk959 in C:\Users\uk959\IdeaProjects\blog)
+2021-06-29 16:56:55 [INFO ] [SpringApplication.java]logStartupProfileInfo(663) : No active profile set, falling back to default profiles: default
+2021-06-29 16:56:56 [WARN ] [Logger.java]warn(44) : No MyBatis mapper was found in '[com.blog.mapper.*]' package. Please check your configuration.
+2021-06-29 16:56:56 [WARN ] [Logger.java]warn(44) : Property 'mapperLocations' was specified but matching resources are not found.
+2021-06-29 16:56:57 [INFO ] [StartupInfoLogger.java]logStarted(61) : Started BlogApplication in 2.48 seconds (JVM running for 3.847)
+2021-06-29 16:57:01 [INFO ] [ErrorExceptionConfig.java]handleError(33) : ########## ERROR!!! ##########
+2021-06-29 16:57:01 [INFO ] [ErrorExceptionConfig.java]handleError(34) : 에러 구분  : 404
+2021-06-29 16:57:01 [INFO ] [ErrorExceptionConfig.java]handleError(35) : 발생일     : 20210629 04:57
+2021-06-29 16:57:01 [INFO ] [ErrorExceptionConfig.java]handleError(36) : ##############################
+2021-06-29 16:57:50 [INFO ] [StartupInfoLogger.java]logStarting(55) : Starting BlogApplication using Java 1.8.0_292 on DESKTOP-1LJLV0R with PID 22484 (C:\Users\uk959\IdeaProjects\blog\build\classes\java\main started by uk959 in C:\Users\uk959\IdeaProjects\blog)
+2021-06-29 16:57:50 [INFO ] [SpringApplication.java]logStartupProfileInfo(663) : No active profile set, falling back to default profiles: default
+2021-06-29 16:57:50 [WARN ] [Logger.java]warn(44) : No MyBatis mapper was found in '[com.blog.mapper.*]' package. Please check your configuration.
+2021-06-29 16:57:51 [WARN ] [Logger.java]warn(44) : Property 'mapperLocations' was specified but matching resources are not found.
+2021-06-29 16:57:52 [INFO ] [StartupInfoLogger.java]logStarted(61) : Started BlogApplication in 2.546 seconds (JVM running for 3.903)
+2021-06-29 16:57:53 [ERROR] [TemplateEngine.java]process(1136) : [THYMELEAF][http-nio-9000-exec-2] Exception processing template "index": An error happened during template parsing (template: "class path resource [templates/index.html]")
+org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "class path resource [templates/index.html]")
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:241)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parseStandalone(AbstractMarkupTemplateParser.java:100)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:666)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:366)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:190)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1396)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1141)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1080)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.attoparser.ParseException: Cannot execute division: operands are "body" and "main" (template: "index" - line 6, col 11)
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:393)
+	at org.attoparser.MarkupParser.parse(MarkupParser.java:257)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:230)
+	... 48 common frames omitted
+Caused by: org.thymeleaf.exceptions.TemplateProcessingException: Cannot execute division: operands are "body" and "main" (template: "index" - line 6, col 11)
+	at org.thymeleaf.standard.expression.DivisionExpression.executeDivision(DivisionExpression.java:109)
+	at org.thymeleaf.standard.expression.ComplexExpression.executeComplex(ComplexExpression.java:71)
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:112)
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:138)
+	at org.thymeleaf.standard.expression.FragmentExpression.doCreateExecutedFragmentExpression(FragmentExpression.java:458)
+	at org.thymeleaf.standard.expression.FragmentExpression.createExecutedFragmentExpression(FragmentExpression.java:426)
+	at org.thymeleaf.standard.processor.AbstractStandardFragmentInsertionTagProcessor.computeFragment(AbstractStandardFragmentInsertionTagProcessor.java:359)
+	at org.thymeleaf.standard.processor.AbstractStandardFragmentInsertionTagProcessor.doProcess(AbstractStandardFragmentInsertionTagProcessor.java:110)
+	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:74)
+	at org.thymeleaf.processor.element.AbstractElementTagProcessor.process(AbstractElementTagProcessor.java:95)
+	at org.thymeleaf.util.ProcessorConfigurationUtils$ElementTagProcessorWrapper.process(ProcessorConfigurationUtils.java:633)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(ProcessorTemplateHandler.java:1314)
+	at org.thymeleaf.engine.TemplateHandlerAdapterMarkupHandler.handleOpenElementEnd(TemplateHandlerAdapterMarkupHandler.java:304)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler$InlineMarkupAdapterPreProcessorHandler.handleOpenElementEnd(InlinedOutputExpressionMarkupHandler.java:278)
+	at org.thymeleaf.standard.inline.OutputExpressionInlinePreProcessorHandler.handleOpenElementEnd(OutputExpressionInlinePreProcessorHandler.java:186)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler.handleOpenElementEnd(InlinedOutputExpressionMarkupHandler.java:124)
+	at org.attoparser.HtmlElement.handleOpenElementEnd(HtmlElement.java:109)
+	at org.attoparser.HtmlMarkupHandler.handleOpenElementEnd(HtmlMarkupHandler.java:297)
+	at org.attoparser.MarkupEventProcessorHandler.handleOpenElementEnd(MarkupEventProcessorHandler.java:402)
+	at org.attoparser.ParsingElementMarkupUtil.parseOpenElement(ParsingElementMarkupUtil.java:159)
+	at org.attoparser.MarkupParser.parseBuffer(MarkupParser.java:710)
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:301)
+	... 50 common frames omitted
+2021-06-29 16:57:53 [ERROR] [DirectJDKLog.java]log(175) : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "class path resource [templates/index.html]")] with root cause
+org.thymeleaf.exceptions.TemplateProcessingException: Cannot execute division: operands are "body" and "main" (template: "index" - line 6, col 11)
+	at org.thymeleaf.standard.expression.DivisionExpression.executeDivision(DivisionExpression.java:109)
+	at org.thymeleaf.standard.expression.ComplexExpression.executeComplex(ComplexExpression.java:71)
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:112)
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:138)
+	at org.thymeleaf.standard.expression.FragmentExpression.doCreateExecutedFragmentExpression(FragmentExpression.java:458)
+	at org.thymeleaf.standard.expression.FragmentExpression.createExecutedFragmentExpression(FragmentExpression.java:426)
+	at org.thymeleaf.standard.processor.AbstractStandardFragmentInsertionTagProcessor.computeFragment(AbstractStandardFragmentInsertionTagProcessor.java:359)
+	at org.thymeleaf.standard.processor.AbstractStandardFragmentInsertionTagProcessor.doProcess(AbstractStandardFragmentInsertionTagProcessor.java:110)
+	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:74)
+	at org.thymeleaf.processor.element.AbstractElementTagProcessor.process(AbstractElementTagProcessor.java:95)
+	at org.thymeleaf.util.ProcessorConfigurationUtils$ElementTagProcessorWrapper.process(ProcessorConfigurationUtils.java:633)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(ProcessorTemplateHandler.java:1314)
+	at org.thymeleaf.engine.TemplateHandlerAdapterMarkupHandler.handleOpenElementEnd(TemplateHandlerAdapterMarkupHandler.java:304)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler$InlineMarkupAdapterPreProcessorHandler.handleOpenElementEnd(InlinedOutputExpressionMarkupHandler.java:278)
+	at org.thymeleaf.standard.inline.OutputExpressionInlinePreProcessorHandler.handleOpenElementEnd(OutputExpressionInlinePreProcessorHandler.java:186)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler.handleOpenElementEnd(InlinedOutputExpressionMarkupHandler.java:124)
+	at org.attoparser.HtmlElement.handleOpenElementEnd(HtmlElement.java:109)
+	at org.attoparser.HtmlMarkupHandler.handleOpenElementEnd(HtmlMarkupHandler.java:297)
+	at org.attoparser.MarkupEventProcessorHandler.handleOpenElementEnd(MarkupEventProcessorHandler.java:402)
+	at org.attoparser.ParsingElementMarkupUtil.parseOpenElement(ParsingElementMarkupUtil.java:159)
+	at org.attoparser.MarkupParser.parseBuffer(MarkupParser.java:710)
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:301)
+	at org.attoparser.MarkupParser.parse(MarkupParser.java:257)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:230)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parseStandalone(AbstractMarkupTemplateParser.java:100)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:666)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:366)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:190)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1396)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1141)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1080)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2021-06-29 16:57:53 [INFO ] [ErrorExceptionConfig.java]handleError(47) : ########## ERROR!!! ##########
+2021-06-29 16:57:53 [INFO ] [ErrorExceptionConfig.java]handleError(48) : 에러 구분  : 500
+2021-06-29 16:57:53 [INFO ] [ErrorExceptionConfig.java]handleError(49) : 발생일     : 20210629 04:57
+2021-06-29 16:57:53 [INFO ] [ErrorExceptionConfig.java]handleError(50) : ##############################
+2021-06-29 17:07:24 [INFO ] [StartupInfoLogger.java]logStarting(55) : Starting BlogApplication using Java 1.8.0_292 on DESKTOP-1LJLV0R with PID 28328 (C:\Users\uk959\IdeaProjects\blog\build\classes\java\main started by uk959 in C:\Users\uk959\IdeaProjects\blog)
+2021-06-29 17:07:24 [INFO ] [SpringApplication.java]logStartupProfileInfo(663) : No active profile set, falling back to default profiles: default
+2021-06-29 17:07:25 [WARN ] [Logger.java]warn(44) : No MyBatis mapper was found in '[com.blog.mapper.*]' package. Please check your configuration.
+2021-06-29 17:07:25 [WARN ] [Logger.java]warn(44) : Property 'mapperLocations' was specified but matching resources are not found.
+2021-06-29 17:07:26 [INFO ] [StartupInfoLogger.java]logStarted(61) : Started BlogApplication in 2.701 seconds (JVM running for 4.1)
+2021-06-29 17:07:30 [INFO ] [ErrorExceptionConfig.java]handleError(33) : ########## ERROR!!! ##########
+2021-06-29 17:07:30 [INFO ] [ErrorExceptionConfig.java]handleError(34) : 에러 구분  : 404
+2021-06-29 17:07:30 [INFO ] [ErrorExceptionConfig.java]handleError(35) : 발생일     : 20210629 05:07
+2021-06-29 17:07:30 [INFO ] [ErrorExceptionConfig.java]handleError(36) : ##############################
+2021-06-29 17:08:34 [INFO ] [StartupInfoLogger.java]logStarting(55) : Starting BlogApplication using Java 1.8.0_292 on DESKTOP-1LJLV0R with PID 19304 (C:\Users\uk959\IdeaProjects\blog\build\classes\java\main started by uk959 in C:\Users\uk959\IdeaProjects\blog)
+2021-06-29 17:08:34 [INFO ] [SpringApplication.java]logStartupProfileInfo(663) : No active profile set, falling back to default profiles: default
+2021-06-29 17:08:35 [WARN ] [Logger.java]warn(44) : No MyBatis mapper was found in '[com.blog.mapper.*]' package. Please check your configuration.
+2021-06-29 17:08:36 [WARN ] [Logger.java]warn(44) : Property 'mapperLocations' was specified but matching resources are not found.
+2021-06-29 17:08:37 [INFO ] [StartupInfoLogger.java]logStarted(61) : Started BlogApplication in 2.816 seconds (JVM running for 4.201)
+2021-06-29 17:08:42 [INFO ] [ErrorExceptionConfig.java]handleError(33) : ########## ERROR!!! ##########
+2021-06-29 17:08:42 [INFO ] [ErrorExceptionConfig.java]handleError(34) : 에러 구분  : 404
+2021-06-29 17:08:42 [INFO ] [ErrorExceptionConfig.java]handleError(35) : 발생일     : 20210629 05:08
+2021-06-29 17:08:42 [INFO ] [ErrorExceptionConfig.java]handleError(36) : ##############################
+2021-06-29 17:10:55 [INFO ] [StartupInfoLogger.java]logStarting(55) : Starting BlogApplication using Java 1.8.0_292 on DESKTOP-1LJLV0R with PID 27564 (C:\Users\uk959\IdeaProjects\blog\build\classes\java\main started by uk959 in C:\Users\uk959\IdeaProjects\blog)
+2021-06-29 17:10:55 [INFO ] [SpringApplication.java]logStartupProfileInfo(663) : No active profile set, falling back to default profiles: default
+2021-06-29 17:10:56 [WARN ] [Logger.java]warn(44) : No MyBatis mapper was found in '[com.blog.mapper.*]' package. Please check your configuration.
+2021-06-29 17:10:56 [WARN ] [Logger.java]warn(44) : Property 'mapperLocations' was specified but matching resources are not found.
+2021-06-29 17:10:57 [INFO ] [StartupInfoLogger.java]logStarted(61) : Started BlogApplication in 2.403 seconds (JVM running for 3.752)
+2021-06-29 17:11:01 [INFO ] [ErrorExceptionConfig.java]handleError(33) : ########## ERROR!!! ##########
+2021-06-29 17:11:01 [INFO ] [ErrorExceptionConfig.java]handleError(34) : 에러 구분  : 404
+2021-06-29 17:11:01 [INFO ] [ErrorExceptionConfig.java]handleError(35) : 발생일     : 20210629 05:11
+2021-06-29 17:11:01 [INFO ] [ErrorExceptionConfig.java]handleError(36) : ##############################
+2021-06-29 17:11:01 [INFO ] [ErrorExceptionConfig.java]handleError(33) : ########## ERROR!!! ##########
+2021-06-29 17:11:01 [INFO ] [ErrorExceptionConfig.java]handleError(34) : 에러 구분  : 404
+2021-06-29 17:11:01 [INFO ] [ErrorExceptionConfig.java]handleError(35) : 발생일     : 20210629 05:11
+2021-06-29 17:11:01 [INFO ] [ErrorExceptionConfig.java]handleError(36) : ##############################
+2021-06-29 17:15:47 [INFO ] [StartupInfoLogger.java]logStarting(55) : Starting BlogApplication using Java 1.8.0_292 on DESKTOP-1LJLV0R with PID 23232 (C:\Users\uk959\IdeaProjects\blog\build\classes\java\main started by uk959 in C:\Users\uk959\IdeaProjects\blog)
+2021-06-29 17:15:47 [INFO ] [SpringApplication.java]logStartupProfileInfo(663) : No active profile set, falling back to default profiles: default
+2021-06-29 17:15:48 [WARN ] [Logger.java]warn(44) : No MyBatis mapper was found in '[com.blog.mapper.*]' package. Please check your configuration.
+2021-06-29 17:15:48 [WARN ] [Logger.java]warn(44) : Property 'mapperLocations' was specified but matching resources are not found.
+2021-06-29 17:15:49 [INFO ] [StartupInfoLogger.java]logStarted(61) : Started BlogApplication in 2.604 seconds (JVM running for 4.006)
+2021-06-29 17:15:50 [INFO ] [ErrorExceptionConfig.java]handleError(33) : ########## ERROR!!! ##########
+2021-06-29 17:15:50 [INFO ] [ErrorExceptionConfig.java]handleError(33) : ########## ERROR!!! ##########
+2021-06-29 17:15:50 [INFO ] [ErrorExceptionConfig.java]handleError(34) : 에러 구분  : 404
+2021-06-29 17:15:50 [INFO ] [ErrorExceptionConfig.java]handleError(34) : 에러 구분  : 404
+2021-06-29 17:15:50 [INFO ] [ErrorExceptionConfig.java]handleError(35) : 발생일     : 20210629 05:15
+2021-06-29 17:15:50 [INFO ] [ErrorExceptionConfig.java]handleError(35) : 발생일     : 20210629 05:15
+2021-06-29 17:15:50 [INFO ] [ErrorExceptionConfig.java]handleError(36) : ##############################
+2021-06-29 17:15:50 [INFO ] [ErrorExceptionConfig.java]handleError(36) : ##############################
+2021-06-29 17:18:23 [INFO ] [StartupInfoLogger.java]logStarting(55) : Starting BlogApplication using Java 1.8.0_292 on DESKTOP-1LJLV0R with PID 17944 (C:\Users\uk959\IdeaProjects\blog\build\classes\java\main started by uk959 in C:\Users\uk959\IdeaProjects\blog)
+2021-06-29 17:18:23 [INFO ] [SpringApplication.java]logStartupProfileInfo(663) : No active profile set, falling back to default profiles: default
+2021-06-29 17:18:24 [WARN ] [Logger.java]warn(44) : No MyBatis mapper was found in '[com.blog.mapper.*]' package. Please check your configuration.
+2021-06-29 17:18:24 [WARN ] [Logger.java]warn(44) : Property 'mapperLocations' was specified but matching resources are not found.
+2021-06-29 17:18:25 [INFO ] [StartupInfoLogger.java]logStarted(61) : Started BlogApplication in 2.593 seconds (JVM running for 4.091)
+2021-06-29 17:18:49 [INFO ] [ErrorExceptionConfig.java]handleError(33) : ########## ERROR!!! ##########
+2021-06-29 17:18:49 [INFO ] [ErrorExceptionConfig.java]handleError(34) : 에러 구분  : 404
+2021-06-29 17:18:49 [INFO ] [ErrorExceptionConfig.java]handleError(35) : 발생일     : 20210629 05:18
+2021-06-29 17:18:49 [INFO ] [ErrorExceptionConfig.java]handleError(36) : ##############################
+2021-06-29 17:18:49 [INFO ] [ErrorExceptionConfig.java]handleError(33) : ########## ERROR!!! ##########
+2021-06-29 17:18:49 [INFO ] [ErrorExceptionConfig.java]handleError(34) : 에러 구분  : 404
+2021-06-29 17:18:49 [INFO ] [ErrorExceptionConfig.java]handleError(35) : 발생일     : 20210629 05:18
+2021-06-29 17:18:49 [INFO ] [ErrorExceptionConfig.java]handleError(36) : ##############################
+2021-06-29 17:21:10 [INFO ] [StartupInfoLogger.java]logStarting(55) : Starting BlogApplication using Java 1.8.0_292 on DESKTOP-1LJLV0R with PID 4452 (C:\Users\uk959\IdeaProjects\blog\build\classes\java\main started by uk959 in C:\Users\uk959\IdeaProjects\blog)
+2021-06-29 17:21:10 [INFO ] [SpringApplication.java]logStartupProfileInfo(663) : No active profile set, falling back to default profiles: default
+2021-06-29 17:21:10 [WARN ] [Logger.java]warn(44) : No MyBatis mapper was found in '[com.blog.mapper.*]' package. Please check your configuration.
+2021-06-29 17:21:11 [WARN ] [Logger.java]warn(44) : Property 'mapperLocations' was specified but matching resources are not found.
+2021-06-29 17:21:12 [INFO ] [StartupInfoLogger.java]logStarted(61) : Started BlogApplication in 2.595 seconds (JVM running for 3.947)
+2021-06-29 17:21:12 [INFO ] [ErrorExceptionConfig.java]handleError(33) : ########## ERROR!!! ##########
+2021-06-29 17:21:12 [INFO ] [ErrorExceptionConfig.java]handleError(34) : 에러 구분  : 404
+2021-06-29 17:21:12 [INFO ] [ErrorExceptionConfig.java]handleError(35) : 발생일     : 20210629 05:21
+2021-06-29 17:21:12 [INFO ] [ErrorExceptionConfig.java]handleError(36) : ##############################
+2021-06-29 17:21:12 [INFO ] [ErrorExceptionConfig.java]handleError(33) : ########## ERROR!!! ##########
+2021-06-29 17:21:12 [INFO ] [ErrorExceptionConfig.java]handleError(34) : 에러 구분  : 404
+2021-06-29 17:21:12 [INFO ] [ErrorExceptionConfig.java]handleError(35) : 발생일     : 20210629 05:21
+2021-06-29 17:21:12 [INFO ] [ErrorExceptionConfig.java]handleError(36) : ##############################
+2021-06-29 17:21:24 [INFO ] [ErrorExceptionConfig.java]handleError(33) : ########## ERROR!!! ##########
+2021-06-29 17:21:24 [INFO ] [ErrorExceptionConfig.java]handleError(34) : 에러 구분  : 404
+2021-06-29 17:21:24 [INFO ] [ErrorExceptionConfig.java]handleError(35) : 발생일     : 20210629 05:21
+2021-06-29 17:21:24 [INFO ] [ErrorExceptionConfig.java]handleError(36) : ##############################
+2021-06-29 17:27:33 [INFO ] [StartupInfoLogger.java]logStarting(55) : Starting BlogApplication using Java 1.8.0_292 on DESKTOP-1LJLV0R with PID 28692 (C:\Users\uk959\IdeaProjects\blog\build\classes\java\main started by uk959 in C:\Users\uk959\IdeaProjects\blog)
+2021-06-29 17:27:33 [INFO ] [SpringApplication.java]logStartupProfileInfo(663) : No active profile set, falling back to default profiles: default
+2021-06-29 17:27:34 [WARN ] [Logger.java]warn(44) : No MyBatis mapper was found in '[com.blog.mapper.*]' package. Please check your configuration.
+2021-06-29 17:27:35 [WARN ] [Logger.java]warn(44) : Property 'mapperLocations' was specified but matching resources are not found.
+2021-06-29 17:27:36 [INFO ] [StartupInfoLogger.java]logStarted(61) : Started BlogApplication in 2.627 seconds (JVM running for 3.995)
+2021-06-29 17:27:59 [INFO ] [ErrorExceptionConfig.java]handleError(33) : ########## ERROR!!! ##########
+2021-06-29 17:27:59 [INFO ] [ErrorExceptionConfig.java]handleError(34) : 에러 구분  : 404
+2021-06-29 17:27:59 [INFO ] [ErrorExceptionConfig.java]handleError(35) : 발생일     : 20210629 05:27
+2021-06-29 17:27:59 [INFO ] [ErrorExceptionConfig.java]handleError(36) : ##############################
+2021-06-29 17:29:50 [INFO ] [StartupInfoLogger.java]logStarting(55) : Starting BlogApplication using Java 1.8.0_292 on DESKTOP-1LJLV0R with PID 19976 (C:\Users\uk959\IdeaProjects\blog\build\classes\java\main started by uk959 in C:\Users\uk959\IdeaProjects\blog)
+2021-06-29 17:29:50 [INFO ] [SpringApplication.java]logStartupProfileInfo(663) : No active profile set, falling back to default profiles: default
+2021-06-29 17:29:51 [WARN ] [Logger.java]warn(44) : No MyBatis mapper was found in '[com.blog.mapper.*]' package. Please check your configuration.
+2021-06-29 17:29:52 [WARN ] [Logger.java]warn(44) : Property 'mapperLocations' was specified but matching resources are not found.
+2021-06-29 17:29:52 [INFO ] [StartupInfoLogger.java]logStarted(61) : Started BlogApplication in 2.808 seconds (JVM running for 4.14)
+2021-06-29 17:29:54 [INFO ] [ErrorExceptionConfig.java]handleError(33) : ########## ERROR!!! ##########
+2021-06-29 17:29:54 [INFO ] [ErrorExceptionConfig.java]handleError(34) : 에러 구분  : 404
+2021-06-29 17:29:54 [INFO ] [ErrorExceptionConfig.java]handleError(35) : 발생일     : 20210629 05:29
+2021-06-29 17:29:54 [INFO ] [ErrorExceptionConfig.java]handleError(36) : ##############################
+2021-06-29 17:30:18 [INFO ] [StartupInfoLogger.java]logStarting(55) : Starting BlogApplication using Java 1.8.0_292 on DESKTOP-1LJLV0R with PID 29044 (C:\Users\uk959\IdeaProjects\blog\build\classes\java\main started by uk959 in C:\Users\uk959\IdeaProjects\blog)
+2021-06-29 17:30:18 [INFO ] [SpringApplication.java]logStartupProfileInfo(663) : No active profile set, falling back to default profiles: default
+2021-06-29 17:30:19 [WARN ] [Logger.java]warn(44) : No MyBatis mapper was found in '[com.blog.mapper.*]' package. Please check your configuration.
+2021-06-29 17:30:20 [WARN ] [Logger.java]warn(44) : Property 'mapperLocations' was specified but matching resources are not found.
+2021-06-29 17:30:20 [INFO ] [StartupInfoLogger.java]logStarted(61) : Started BlogApplication in 2.725 seconds (JVM running for 4.181)
+2021-06-29 17:30:24 [INFO ] [ErrorExceptionConfig.java]handleError(33) : ########## ERROR!!! ##########
+2021-06-29 17:30:24 [INFO ] [ErrorExceptionConfig.java]handleError(34) : 에러 구분  : 404
+2021-06-29 17:30:24 [INFO ] [ErrorExceptionConfig.java]handleError(35) : 발생일     : 20210629 05:30
+2021-06-29 17:30:24 [INFO ] [ErrorExceptionConfig.java]handleError(36) : ##############################
+2021-06-29 17:35:07 [INFO ] [StartupInfoLogger.java]logStarting(55) : Starting BlogApplication using Java 1.8.0_292 on DESKTOP-1LJLV0R with PID 4516 (C:\Users\uk959\IdeaProjects\blog\build\classes\java\main started by uk959 in C:\Users\uk959\IdeaProjects\blog)
+2021-06-29 17:35:07 [INFO ] [SpringApplication.java]logStartupProfileInfo(663) : No active profile set, falling back to default profiles: default
+2021-06-29 17:35:07 [WARN ] [Logger.java]warn(44) : No MyBatis mapper was found in '[com.blog.mapper.*]' package. Please check your configuration.
+2021-06-29 17:35:08 [WARN ] [Logger.java]warn(44) : Property 'mapperLocations' was specified but matching resources are not found.
+2021-06-29 17:35:09 [INFO ] [StartupInfoLogger.java]logStarted(61) : Started BlogApplication in 2.408 seconds (JVM running for 3.693)
+2021-06-29 17:35:16 [INFO ] [ErrorExceptionConfig.java]handleError(33) : ########## ERROR!!! ##########
+2021-06-29 17:35:16 [INFO ] [ErrorExceptionConfig.java]handleError(34) : 에러 구분  : 404
+2021-06-29 17:35:16 [INFO ] [ErrorExceptionConfig.java]handleError(35) : 발생일     : 20210629 05:35
+2021-06-29 17:35:16 [INFO ] [ErrorExceptionConfig.java]handleError(36) : ##############################
+2021-06-29 17:36:25 [INFO ] [StartupInfoLogger.java]logStarting(55) : Starting BlogApplication using Java 1.8.0_292 on DESKTOP-1LJLV0R with PID 23708 (C:\Users\uk959\IdeaProjects\blog\build\classes\java\main started by uk959 in C:\Users\uk959\IdeaProjects\blog)
+2021-06-29 17:36:25 [INFO ] [SpringApplication.java]logStartupProfileInfo(663) : No active profile set, falling back to default profiles: default
+2021-06-29 17:36:26 [WARN ] [Logger.java]warn(44) : No MyBatis mapper was found in '[com.blog.mapper.*]' package. Please check your configuration.
+2021-06-29 17:36:27 [WARN ] [Logger.java]warn(44) : Property 'mapperLocations' was specified but matching resources are not found.
+2021-06-29 17:36:27 [INFO ] [StartupInfoLogger.java]logStarted(61) : Started BlogApplication in 2.545 seconds (JVM running for 3.905)
+2021-06-29 17:36:32 [INFO ] [ErrorExceptionConfig.java]handleError(33) : ########## ERROR!!! ##########
+2021-06-29 17:36:32 [INFO ] [ErrorExceptionConfig.java]handleError(34) : 에러 구분  : 404
+2021-06-29 17:36:32 [INFO ] [ErrorExceptionConfig.java]handleError(35) : 발생일     : 20210629 05:36
+2021-06-29 17:36:32 [INFO ] [ErrorExceptionConfig.java]handleError(36) : ##############################
+2021-06-29 17:37:26 [INFO ] [StartupInfoLogger.java]logStarting(55) : Starting BlogApplication using Java 1.8.0_292 on DESKTOP-1LJLV0R with PID 29076 (C:\Users\uk959\IdeaProjects\blog\build\classes\java\main started by uk959 in C:\Users\uk959\IdeaProjects\blog)
+2021-06-29 17:37:26 [INFO ] [SpringApplication.java]logStartupProfileInfo(663) : No active profile set, falling back to default profiles: default
+2021-06-29 17:37:27 [WARN ] [Logger.java]warn(44) : No MyBatis mapper was found in '[com.blog.mapper.*]' package. Please check your configuration.
+2021-06-29 17:37:28 [WARN ] [Logger.java]warn(44) : Property 'mapperLocations' was specified but matching resources are not found.
+2021-06-29 17:37:29 [INFO ] [StartupInfoLogger.java]logStarted(61) : Started BlogApplication in 2.672 seconds (JVM running for 4.092)
+2021-06-29 17:37:32 [INFO ] [ErrorExceptionConfig.java]handleError(33) : ########## ERROR!!! ##########
+2021-06-29 17:37:32 [INFO ] [ErrorExceptionConfig.java]handleError(34) : 에러 구분  : 404
+2021-06-29 17:37:32 [INFO ] [ErrorExceptionConfig.java]handleError(35) : 발생일     : 20210629 05:37
+2021-06-29 17:37:32 [INFO ] [ErrorExceptionConfig.java]handleError(36) : ##############################
+2021-06-29 17:40:40 [INFO ] [StartupInfoLogger.java]logStarting(55) : Starting BlogApplication using Java 1.8.0_292 on DESKTOP-1LJLV0R with PID 23656 (C:\Users\uk959\IdeaProjects\blog\build\classes\java\main started by uk959 in C:\Users\uk959\IdeaProjects\blog)
+2021-06-29 17:40:40 [INFO ] [SpringApplication.java]logStartupProfileInfo(663) : No active profile set, falling back to default profiles: default
+2021-06-29 17:40:41 [WARN ] [Logger.java]warn(44) : No MyBatis mapper was found in '[com.blog.mapper.*]' package. Please check your configuration.
+2021-06-29 17:40:42 [WARN ] [Logger.java]warn(44) : Property 'mapperLocations' was specified but matching resources are not found.
+2021-06-29 17:40:42 [INFO ] [StartupInfoLogger.java]logStarted(61) : Started BlogApplication in 2.587 seconds (JVM running for 3.9)
+2021-06-29 17:40:46 [INFO ] [ErrorExceptionConfig.java]handleError(33) : ########## ERROR!!! ##########
+2021-06-29 17:40:46 [INFO ] [ErrorExceptionConfig.java]handleError(34) : 에러 구분  : 404
+2021-06-29 17:40:46 [INFO ] [ErrorExceptionConfig.java]handleError(35) : 발생일     : 20210629 05:40
+2021-06-29 17:40:46 [INFO ] [ErrorExceptionConfig.java]handleError(36) : ##############################

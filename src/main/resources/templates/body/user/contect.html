@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<!--
+<?php if($this->session->userdata('uid') == null){?>
+<script>
+    alert('로그인 후 이용가능합니다.');
+    location.href="/";
+</script>
+<?php }?> -->
+<body th:fragment="userContect">
+    <section class="site-section">
+        <div class="container">
+            <div class="row mb-4">
+                <div class="col-md-6">
+                    <h1>CONTACT</h1>
+                </div>
+            </div>
+            <div class="row blog-entries">
+                <div class="col-md-12 col-lg-8 main-content">
+
+                    <form action="/auth/send_mail" enctype="multipart/form-data" method="post" accept-charset="utf-8" class="form-signin">
+                        <input type="hidden" id="regdate" name="regdate"/>
+                        <input type="hidden" id="uid" name="uid"/>
+                        <input type="hidden" id="uname" name="uname"/>
+
+                        <div class="row">
+                            <div class="col-md-12 form-group">
+                                <label for="email">이메일 (변경불가)</label>
+                                <input type="text" class="form-control" id="email" name="email" readonly>
+                            </div>
+                            <div class="col-md-12 form-group">
+                                <label for="contact_title">제목</label>
+                                <input type="text" class="form-control" id="contact_title" name="contact_title" placeholder="제목을 입력하세요">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12 form-group">
+                                <label for="contact_content">내용</label>
+                                <textarea id="contact_content" name="contact_content" class="form-control " cols="30" rows="8"><?=$data->content?></textarea>
+                                <script>
+                                    CKEDITOR.replace('contact_content' , {
+                                        height:500,
+                                        'fillebrowserUploadUrl' : '/board/receive_img'
+                                    });
+                                </script>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-2 form-group container">
+                                <button type="submit" class="btn btn-primary"><i class="fas fa-plus"></i>전송</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

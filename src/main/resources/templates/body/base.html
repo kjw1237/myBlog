@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+    <div th:fragment="Wrap" class="wrap">
+        <header th:replace="components/navbar/topNav :: topNav"/>
+        <section th:replace="body/main/new_slider :: newSlider"/>
+        <section th:replace="body/main/new_boardData :: newBoardData"/>
+        <footer th:replace="components/main/footer :: Footer"/>
+    </div>
+</html>

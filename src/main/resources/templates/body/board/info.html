@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<body th:fragment="boardInfo">
+<section class="site-section py-lg">
+    <div class="container">
+        <div class="row blog-entries element-animate">
+            <div class="col-md-12 col-lg-8 main-content">
+                <div class="post-meta">
+                    <span class="author mr-2"><img th:src="@{resources/static/images/icon.png}" alt="<?=$board->uid?>" class="mr-2"> <?=$board->uid?></span>&bullet;
+                    <span class="mr-2"><?=$board->regdate?> </span>
+                    &bullet;
+                    <span class="ml-2"><span class="fas fa-comments"></span> <?=$count?></span>
+                    &bullet;
+                    <span class="ml-2"><span class="fas fa-eye"></span> <?=$board->hit?></span>
+                    <?php if($this->session->userdata('uid') == $board->uid){?>
+                    &bullet;
+                    <span class="ml-2"><a href="/board/modF/<?=$board->board_num?>" style="color:#b3b3b3;"><span class="fas fa-pen"></span> 수정</a></span>
+                    &bullet;
+                    <span class="ml-2"><a href="#" onclick="delete_b(<?=$board->board_num?>);" style="color:#b3b3b3;"><span class="fas fa-trash-alt"></span> 삭제</a></span>
+                    <?php }?>
+                </div>
+                <h1 class="mb-4"><?=$board->board_title?></h1>
+                <a class="category mb-5" href="/board/list?category=<?=$board->category2?>"><?=$board->category1?></a>
+                <a class="category mb-5" href="/board/list?category=<?=$board->category2?>"><?=$board->category2?></a>
+                <div class="post-content-body">
+                    <p><?=$board->board_content?></p>
+                </div>
+
+                <div class="pt-5">
+                    <p>카테고리: <a href="/board/list?category=<?=$board->category2?>"><?=$board->category2?></a>  &nbsp;태그: <a href="/board/tag?keyword=<?=$board->tag?>">#<?=$board->tag?></a></p>
+                </div>
+                <hr>
+
+                <div class="pt-5">
+                    <!-- 댓글 s -->
+                    <?php if($count == null){?>
+                    <h5 class="mb-5">댓글이 존재하지않습니다.</h5>
+                    <?php }else{?>
+                    <h5 class="mb-5"><?=$count?>개의 댓글이 있습니다.</h5>
+                    <?php foreach ($comment as $co_data) {?>
+                    <ul class="comment-list">
+                        <li class="comment">
+                            <div class="vcard">
+                                <?php if($co_data->uid == 'wodlf0423'){?>
+                                <img src="http://jaeilkim.cafe24.com/resource/images/pxcon2.png" alt="관리자">
+                                <?php }else{?>
+                                <img src="http://jaeilkim.cafe24.com/resource/images/pixcon3.png" alt="버섯">
+                                <?php }?>
+                            </div>
+                            <div class="comment-body" id="c_content">
+                                <p><?=$co_data->uid?></p>
+                                <div class="meta"><?=$co_data->regdate?></div>
+                                <p><?=$co_data->comment_content?></p>
+                                <?php if($co_data->uid == $this->session->userdata('uid')){?>
+                                <p><a href="#" class="reply rounded">수정</a>&nbsp;<a href="#" onclick="delete_c(<?=$co_data->comment_num?>);" class="reply rounded">삭제</a></p>
+                                <?php }?>
+                            </div>
+                        </li>
+                        <?php }?>
+                        <?php }?>
+                        <!-- 댓글 e -->
+                        <?php if($this->session->userdata('uid') == null){?>
+                        <div class="comment-form-wrap pt-5">
+                            <h5 class="mb-5">댓글 작성</h5>
+                            <div class="form-group">
+                                <p>로그인 후 이용 가능합니다.</p>
+                            </div>
+                        </div>
+                        <?php }else{?>
+                        <div class="comment-form-wrap pt-5">
+                            <h5 class="mb-5">댓글 작성</h5>
+                            <form action="/board/add_comment" method="post" class="p-5 bg-light">
+                                <input type="hidden" value="<?php echo date('Y-m-d H:i');?>" id="regdate" name="regdate"/>
+                                <input type="hidden" value="<?=$this->session->userdata('uid')?>" id="uid" name="uid"/>
+                                <input type="hidden" value="<?=$board->board_num?>" id="board_num" name="board_num"/>
+                                <div class="form-group">
+                                    <textarea name="comment_content" id="comment_content" cols="30" rows="10" class="form-control"></textarea>
+                                    <script>CKEDITOR.replace('comment_content',{});</script>
+                                </div>
+                                <div class="form-group">
+                                    <input type="submit" value="작성" class="btn btn-primary">
+                                </div>
+                            </form>
+                        </div>
+                        <?php }?>
+                </div>
+            </div>
+            <script>
+            </script>
+    </body>
+</html>

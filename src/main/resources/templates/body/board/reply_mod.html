@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<body th:fragment="boardReply_mod">
+    <section class="site-section py-lg">
+        <div class="container">
+            <div class="row blog-entries element-animate">
+                <div class="col-md-12 col-lg-8 main-content">
+                    <div class="post-meta">
+                        <span class="author mr-2"><img th:src="@{resources/static/images/fairi.png}" alt="<?=$board->uid?>" class="mr-2"> <?=$board->uid?></span>&bullet;
+                        <span class="mr-2"><?=$board->regdate?></span>
+                        &bullet;
+                        <span class="ml-2"><span class="fas fa-comments"></span> <?=$count?></span>
+                        &bullet;
+                        <!--
+                          <?php if($this->session->userdata('uid') == $board->uid){?>
+                          &bullet;
+                          <span class="ml-2"><a href="/board/modF/<?=$board->board_num?>" style="color:#b3b3b3;"><span class="fas fa-pen"></span> 수정</a></span>
+                          &bullet;
+                          <span class="ml-2"><a href="#" onclick="delete_b(<?=$board->board_num?>);" style="color:#b3b3b3;"><span class="fas fa-trash-alt"></span> 삭제</a></span>
+                          <?php }?>
+                        -->
+                    </div>
+                    <h1 class="mb-4"><?=$board->board_title?></h1>
+                    <a class="category mb-5" href="/board/list?category=<?=$board->category2?>"><?=$board->category1?></a>
+                    <a class="category mb-5" href="/board/list?category=<?=$board->category2?>"><?=$board->category2?></a>
+
+                    <div class="post-content-body">
+                        <div class="pt-5">
+                            <p>카테고리: <a href="/board/list?category=<?=$board->category2?>"><?=$board->category2?></a>  &nbsp;태그: <a href="/board/tag?keyword=<?=$board->tag?>">#<?=$board->tag?></a></p>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="pt-5">
+                        <ul class="comment-list">
+                            <li class="comment">
+                                <div class="vcard">
+                                    <!--
+                                       <?php if($co_data->uid == 'sogogi'){?>
+                                        <img src="http://www.so-gogi.com/resource/images/pxcon2.png" alt="관리자">
+                                      <?php }else{?>
+                                        <img src="http://www.so-gogi.com/resource/images/pixcon3.png" alt="버섯">
+                                      <?php }?>
+                                    -->
+                                </div>
+                                <div class="comment-body" id="c_content">
+                                    <p><?=$co_data->uid?></p>
+                                    <div class="meta"><?=$co_data->regdate?></div>
+                                    <div class="form-group">
+                                        <textarea name="comment_content" id="comment_content" cols="30" rows="10" class="form-control"><?=$co_data -> comment_content?></textarea>
+                                        <script>
+                                            CKEDITOR.replace('comment_content' , {
+
+                                            });
+                                        </script>
+                                    </div>
+                                    <p><a href="#" class="reply rounded">수정</a></p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

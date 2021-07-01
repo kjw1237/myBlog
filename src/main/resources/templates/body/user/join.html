@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head th:replace="components/main/uheader :: Uheader"></head>
+<body th:fragment="userJoin">
+    <div class="limiter">
+        <div class="container-login100">
+            <div class="wrap-login100 p-t-10 p-b-0">
+                <form class="login100-form validate-form flex-sb flex-w" action="/user/add" method="post">
+                    <a href="/" class="login100-form-title p-b-1"><img src="http://jaeilkim.cafe24.com/resource/images/icon.png" alt="로그인"></a>
+                    <span class="login100-form-minititle p-b-21"></span>
+
+                    <!-- 가입날짜, 중복체크 확인 -->
+                    <input type="hidden" id="validation" value="0"/>
+                    <input type="hidden" value="<?php echo date('Y-m-d H:i');?>" id="regdate" name="regdate"/>
+                    <!-- id -->
+                    <span class="txt1"><i class="fa fa-asterisk"></i>&nbsp;&nbsp; 아이디
+                        <span class="txt2" id="warning_id"></span></span>
+                    <div class="wrap-input100 validate-input m-b-14">
+                        <div class="input-group">
+                            <input class="input50" type="text" id="uid" name="uid" placeholder="6~20자 영어 또는 숫자로 입력하세요.">
+                            <span class="focus-input50"></span>
+                            <a class="login50-form-btn" onclick="return idcheck()" style="color:#fff;" id="idcheckbtn">
+                                <i class="fa fa-cog fa-spin" id="idcheckicon"></i></a>
+                        </div>
+                    </div>
+
+                    <!-- pw -->
+                    <span class="txt1"><i class="fa fa-lock"></i>&nbsp;&nbsp; 비밀번호
+                        <i id="result"></i></span>
+                    <div class="wrap-input100 validate-input m-b-16">
+                        <input class="input50" type="password" id="upwd" name="upwd" placeholder="특수문자 포함 8자이상 16자 이하로 입력하세요.">
+                        <span class="focus-input50"></span>
+                    </div>
+
+                    <div class="wrap-input100 validate-input m-b-16">
+                        <input class="input50" type="password" id="upwd_chk" name="upwd_chk" placeholder="비밀번호를 한번 더 입력하세요.">
+                        <span class="focus-input50"></span>
+                    </div>
+
+                    <!-- name -->
+                    <span class="txt1"><i class="fa fa-user"></i>&nbsp;&nbsp; 이름
+                        <span class="txt2" id="warning_name"></span></span>
+                    <div class="wrap-input100 validate-input m-b-16">
+                        <input class="input50" type="text" id="uname" name="uname" placeholder="이름을 입력하세요.">
+                        <span class="focus-input50"></span>
+                    </div>
+
+                    <!-- email -->
+                    <span class="txt1"><i class="fa fa-envelope"></i>&nbsp;&nbsp; 이메일 (인증 시 필요)
+                        <span class="txt2" id="warning_email"></span></span>
+                    <div class="wrap-input100 validate-input m-b-16">
+                        <input class="input50" type="text" id="uemail" name="uemail" placeholder="ex)example@gmail.com">
+                        <span class="focus-input50"></span>
+                    </div>
+                    <!--button-->
+                    <form method="post" action="/register">
+                        <div class="container-login100-form-btn m-t-17">
+                            <button type="submit" class="login100-form-btn" onclick = "return F_validation();">
+                                회원가입
+                            </button>
+                        </div>
+                    </form>
+
+                    <div class="flex-sb-m w-full p-t-3 p-b-24">
+                        <div class="contact100-form-checkbox">
+                        </div>
+                        <span class="txt3">이미 회원이신가요? <a href="/user/login" class="txt2">로그인하러가기</a></span>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

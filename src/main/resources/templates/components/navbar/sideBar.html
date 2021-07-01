@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+    <div th:fragment="SideBar" class="col-md-12 col-lg-4 sidebar">
+        <div class="sidebar-box">
+            <div class="bio text-center">
+                <img th:src="@{img/Seed.gif}" alt="파이리" class="img-fluid">
+                <div class="bio-body">
+                    <p><i class="fas fa-code">
+                    </i> 김재일</br><i class="fas fa-mobile-alt">
+                    </i> 010-3444-0318</br><i class="fas fa-at">
+                    </i> admin@so-gogi.com
+                    </p>
+
+                </div>
+            </div>
+        </div>
+        <!-- END sidebar-box -->
+        <div class="sidebar-box">
+            <h3 class="heading">인기 게시글</h3>
+            <div class="post-entry-sidebar">
+                <ul>
+                    <li>
+                        <div class="text">
+                            <p>게시글이 존재하지않습니다.</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="sidebar-box">
+            <h3 class="heading">카테고리</h3>
+            <ul class="categories">
+                <li><a href="#">개발노트</a></li>
+                <li><a href="#">유용 사이트</a></li>
+                <li><a href="#">음식</a></li>
+                <li><a href="#">여행</a></li>
+                <li><a href="#">테크</a></li>
+                <li><a href="#">패션</a></li>
+            </ul>
+        </div>
+
+        <div class="sidebar-box">
+            <h3 class="heading">태그</h3>
+            <ul class="tags">
+                <li><a href="#">CI</a></li>
+                <li><a href="#">Java</a></li>
+                <li><a href="#">JS</a></li>
+                <li><a href="#">BootStrap</a></li>
+                <li><a href="#">Spring</a></li>
+                <li><a href="#">DB</a></li>
+                <li><a href="#">여행</a></li>
+                <li><a href="#">음식</a></li>
+                <li><a href="#">테크</a></li>
+                <li><a href="#">패션</a></li>
+            </ul>
+        </div>
+    </div>
+</html>

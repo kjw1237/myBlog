@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<body th:replace="boardMod">
+    <section class="site-section">
+        <div class="container">
+            <div class="row mb-4">
+                <div class="col-md-6">
+                    <h1>게시글 수정</h1>
+                </div>
+            </div>
+            <div class="row blog-entries">
+                <div class="col-md-12 col-lg-8 main-content">
+
+                    <form action="/board/mod/<?=$data->board_num?>" enctype="multipart/form-data" method="post" accept-charset="utf-8" class="form-signin">
+                        <input type="hidden" id="moddate" name="moddate"/>
+                            <div class="row">
+                                <div class="col-md-12 form-group">
+                                    <label for="category1">카테고리</label>
+                                    <select class="form-control" id="category1" onchange="categoryChange(this)">
+                                        <option value="<?=$data->category1?>"><?=$data->category1?></option>
+                                        <option value="개발노트">개발노트</option>
+                                        <option value="유용 사이트">유용 사이트</option>
+                                        <option value="여행">여행</option>
+                                        <option value="음식">음식</option>
+                                        <option value="테크">테크</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-12 form-group">
+                                    <section class="form-control" id="category2" name="category2">
+                                        <option value="<?=$data->category2?>"><?=$data->category2?></option>
+                                    </section>
+                                </div>
+                                <div class="col-md-12 form-group">
+                                    <label for="tag">태그</label>
+                                    <input type="text" class="form-control" id="tag" name="tag" placeholder="#자바,#JAVA" value="<?=$data->tag?>">
+                                </div>
+                                <div class="col-md-12 form-group">
+                                    <label for="board_title">제목</label>
+                                    <input type="text" class="form-control" id="board_title" name="board_title" placeholder="제목을 입력하세요."  value="<?=$data->board_title?">
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12 form-group">
+                                        <textarea for="board_content" class="form-control" cols="30" rows="8"><?=$data->board_content?></textarea>
+                                        <script>
+                                            CKEDITOR.replace('board_content' , {
+                                                height : 500,
+                                                'filebrowserUploadUrl' : '/board/receive_img'
+                                            });
+                                        </script>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12 form-group">
+                                        <input id="img" name="img" type="file">
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-2 form-group container">
+                                        <button type="submit" class="btn btn-primary"><i class="fas fa-plus"></i>수정</button>
+                                    </div>
+                                </div>
+                            </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!--
+        <script>
+            function categoryChange(category) {
+                var dev = ["Spring", "CI", "JS", "DB","JAVA","OTHER"];
+                var share = ["BootStrap", "Publishing", "Devlop", "OTHER"];
+                var trip = ["Trip"];
+                var food = ["Food"];
+                var tech = ["Tech"];
+
+                var target = document.getElementById("category2");
+
+                if(category.value == "개발노트") var more = dev;
+                else if(category.value == "유용 사이트") var more = share;
+                else if(category.value == "여행") var more = trip;
+                else if(category.value == "음식") var more = food;
+                else if(category.value == "테크") var more = tech;
+
+                target.options.length = 0;
+
+                for (total in more) {
+                var opt = document.createElement("option");
+                opt.value = more[total];
+                opt.innerHTML = more[total];
+                target.appendChild(opt);
+                }
+            }
+            </script>
+        -->
+    </section>
+</body>
+</html>

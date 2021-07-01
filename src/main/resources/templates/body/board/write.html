@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<body th:fragment="boradWrite">
+    <section class="site-section">
+        <div class="container">
+            <div class="row mb-4">
+                <div class="col-md-6">
+                    <h1>게시글 작성</h1>
+                </div>
+            </div>
+            <div class="row blog-entries">
+                <div class="col-md-12 col-lg-8 main-content">
+
+                    <form action="/board/add" enctype="multipart/form-data" method="post" accept-charset="utf-8" class="form-signin">
+                        <input type="hidden" value="<?php echo date('Y-m-d H:i');?>" id="regdate" name="regdate"/>
+                        <input type="hidden" value="<?=$this->session->userdata('uid')?>" id="uid" name="uid"/>
+                        <div class="row">
+                            <div class="col-md-12 form-group">
+                                <label for="category1">카테고리</label>
+                                <select class="form-control" id="category1" name="category1" onchange="categoryChange(this)">
+                                    <option>카테고리를 선택하세요.</option>
+                                    <option value="스터디">스터디</option>
+                                    <option value="개발노트">개발노트</option>
+                                    <option value="유용 사이트">유용 사이트</option>
+                                    <option value="여행">여행</option>
+                                    <option value="음식">음식</option>
+                                    <option value="테크">테크</option>
+                                    <option value="패션">패션</option>
+                                </select>
+                            </div>
+                            <div class="col-md-12 form-group">
+                                <select class="form-control" id="category2" name="category2">
+                                    <option value="개발">대분류를 먼저 선택하세요.</option>
+                                </select>
+                            </div>
+                            <div class="col-md-12 form-group">
+                                <label for="tag">태그</label>
+                                <input type="text" class="form-control " id="tag" name="tag" placeholder="태그를 입력하세요.">
+                            </div>
+                            <div class="col-md-12 form-group">
+                                <label for="board_title">제목</label>
+                                <input type="text" class="form-control " id="board_title" name="board_title" placeholder="제목을 입력하세요.">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12 form-group">
+                                <label for="board_content">내용</label>
+                                <textarea id="board_content" name="board_content" class="form-control " cols="30" rows="8"></textarea>
+                                <script>
+                                    CKEDITOR.replace('board_content',{
+                                        height: 500,
+                                        'filebrowserUploadUrl':'/board/receive_img'
+                                    });
+                                </script>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12 form-group">
+                                <input id="img" name="img" type="file"/>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-2 form-group container">
+                                <button type="submit" class="btn btn-primary"><i class="fas fa-plus"></i> 작성</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                </div>
+            </div>
+        </div>
+        <script>
+            function categoryChange(category) {
+                var study = ["eduJava", "eduJavaScript" , "eduDB"];
+                var dev = ["Spring" , "CI" , "JS" , "DB" , "JAVA" , "OTHER"];
+                var share = ["BootStrap" , "publishing" , "Develop" , "OTHER"];
+                var trip = ["Trip"];
+                var food = ["Food"];
+                var tech = ["Tech"];
+                var fashion = ["Fashion"];
+
+                var target = document.getElementById("category2");
+                if(category.value == "스터디") var more = study;
+                else if(category.value == "개발노트") var more = dev;
+                else if(category.value == "유용 사이트") var more = share;
+                else if(category.value == "여행") var more = trip;
+                else if(category.value == "음식") var more = food;
+                else if(category.value == "테크") var more = tech;
+                else if(category.value == "패션") var more = fashion;
+
+                target.options.length = 0;
+
+                for (total in more) {
+                    var opt = document.createElement("option");
+                    opt.value = more[total];
+                    opt.innerHTML = more[total];
+                    target.appendChild(opt);
+                }
+            }
+        </script>
+
+            }
+        </script>
+    </section>
+</body>
+</html>

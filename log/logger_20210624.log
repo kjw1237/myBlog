@@ -1,0 +1,22 @@
+2021-06-24 16:47:27 [INFO ] [StartupInfoLogger.java]logStarting(55) : Starting BlogApplication using Java 1.8.0_292 on DESKTOP-1LJLV0R with PID 24500 (C:\Users\uk959\IdeaProjects\blog\build\classes\java\main started by uk959 in C:\Users\uk959\IdeaProjects\blog)
+2021-06-24 16:47:27 [INFO ] [SpringApplication.java]logStartupProfileInfo(663) : No active profile set, falling back to default profiles: default
+2021-06-24 16:47:28 [WARN ] [Logger.java]warn(44) : No MyBatis mapper was found in '[com.blog.mapper.*]' package. Please check your configuration.
+2021-06-24 16:47:28 [WARN ] [Logger.java]warn(44) : Property 'mapperLocations' was specified but matching resources are not found.
+2021-06-24 16:47:29 [INFO ] [StartupInfoLogger.java]logStarted(61) : Started BlogApplication in 2.165 seconds (JVM running for 4.087)
+2021-06-24 16:49:35 [INFO ] [ErrorExceptionConfig.java]handleError(33) : ########## ERROR!!! ##########
+2021-06-24 16:49:35 [INFO ] [ErrorExceptionConfig.java]handleError(34) : 에러 구분  : 404
+2021-06-24 16:49:35 [INFO ] [ErrorExceptionConfig.java]handleError(35) : 발생일     : 20210624 04:49
+2021-06-24 16:49:35 [INFO ] [ErrorExceptionConfig.java]handleError(36) : ##############################
+2021-06-24 16:50:01 [INFO ] [ErrorExceptionConfig.java]handleError(33) : ########## ERROR!!! ##########
+2021-06-24 16:50:01 [INFO ] [ErrorExceptionConfig.java]handleError(34) : 에러 구분  : 404
+2021-06-24 16:50:01 [INFO ] [ErrorExceptionConfig.java]handleError(35) : 발생일     : 20210624 04:50
+2021-06-24 16:50:01 [INFO ] [ErrorExceptionConfig.java]handleError(36) : ##############################
+2021-06-24 16:50:08 [INFO ] [StartupInfoLogger.java]logStarting(55) : Starting BlogApplication using Java 1.8.0_292 on DESKTOP-1LJLV0R with PID 21564 (C:\Users\uk959\IdeaProjects\blog\build\classes\java\main started by uk959 in C:\Users\uk959\IdeaProjects\blog)
+2021-06-24 16:50:08 [INFO ] [SpringApplication.java]logStartupProfileInfo(663) : No active profile set, falling back to default profiles: default
+2021-06-24 16:50:09 [WARN ] [Logger.java]warn(44) : No MyBatis mapper was found in '[com.blog.mapper.*]' package. Please check your configuration.
+2021-06-24 16:50:09 [WARN ] [Logger.java]warn(44) : Property 'mapperLocations' was specified but matching resources are not found.
+2021-06-24 16:50:09 [INFO ] [StartupInfoLogger.java]logStarted(61) : Started BlogApplication in 2.074 seconds (JVM running for 3.397)
+2021-06-24 16:50:25 [INFO ] [ErrorExceptionConfig.java]handleError(33) : ########## ERROR!!! ##########
+2021-06-24 16:50:25 [INFO ] [ErrorExceptionConfig.java]handleError(34) : 에러 구분  : 404
+2021-06-24 16:50:25 [INFO ] [ErrorExceptionConfig.java]handleError(35) : 발생일     : 20210624 04:50
+2021-06-24 16:50:25 [INFO ] [ErrorExceptionConfig.java]handleError(36) : ##############################

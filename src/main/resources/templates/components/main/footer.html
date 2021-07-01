@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<!--footer-->
+<footer th:fragment="Footer" class="site-footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <p class="small">
+                    Copyright &copy;
+                    <script>document.write(new Date().getFullYear());</script> All Rights Reserved <i class="fas fa-heart text-danger" aria-hidden="true"></i>
+                    by <a href="#" target="_blank" >JerryKim</a>
+                </p>
+            </div>
+        </div>
+    </div>
+    <script th:src="@{js/jquery-3.2.1.min.js}"></script>
+    <script th:src="@{js/jquery-migrate-3.0.0.js}"></script>
+    <script th:src="@{js/popper.min.js}"></script>
+    <script th:src="@{js/bootstrap.min.js}"></script>
+    <script th:src="@{js/owl.carousel.min.js}"></script>
+    <script th:src="@{js/jquery.waypoints.min.js}"></script>
+    <script th:src="@{js/jquery.stellar.min.js}"></script>
+    <script th:src="@{js/main.js}"></script>
+</footer>
+</html>
