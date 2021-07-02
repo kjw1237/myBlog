@@ -11,32 +11,18 @@ import lombok.Data;
  **/
 @Data
 public class BbsVO {
-    /**
-     * SYS_BBS
-     *
-     * board_num        varchar(11)         NOTNULL
-     * board_title      varchar(100)        NOTNULL
-     * board_content    varchar(5000)       NOTNULL
-     * category1        varchar(45)         NOTNULL
-     * category2        varchar(45)         NOTNULL
-     * tag              varchar(300)
-     * regdate          varchar(45)         NOTNULL
-     * moddate          varchar(45)
-     * img              varchar(100)
-     * uid              varchar(45)         NOTNULL
-     * hit              int(11)
-     * **/
 
-    private String board_num;
-    private String board_title;
-    private String board_content;
-    private String category1;
-    private String category2;
-    private String tag;
-    private String regdate;
-    private String moddate;
-    private String img;
-    private String uid;
+    private String bbs_code;                 //NOTNULL
+    private String bbs_title;                //NOTNULL
+    private String bbs_content;              //NOTNULL
     private int hit;
-    private String test;
+    private String content_img_url;
+    private int content_img_byte;
+    private String content_img_filename;
+    private String create_date;
+    private String update_date;
+    private String user_id;                  //NOTNULL
+    private int ccnt;
+    private String category_code;
+
 }

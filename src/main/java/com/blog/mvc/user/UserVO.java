@@ -12,27 +12,25 @@ import lombok.Data;
  **/
 @Data
 public class UserVO {
-    /**
-     * USER
-     *
-     * uid          varchar(45)         NOTNULL
-     * upwd         varchar(100)        NOTNULL
-     * uname        varchar(30)         NOTNULL
-     * uemail       varchar(45)         NOTNULL
-     * email_flag   varchar(45)         NOTNULL
-     * pwd_flag     varchar(45)         NOTNULL
-     * flag         varchar(45)         NOTNULL
-     * regdate      varchar(45)         NOTNULL
-     * moddate      varchar(45)
-     * **/
+
     private int result;
-    private String uid;
-    private String upwd;
-    private String uname;
-    private String uemail;
-    private String email_flag;
-    private String pwd_flag;
-    private String flag;
-    private String regdate;
-    private String moddate;
+
+    private String user_code;               //NOTNULL
+    private String user_id;                 //NOTNULL
+    private String user_pwd;                //NOTNULL
+    private String user_name;               //NOTNULL
+    private String email;                   //NOTNULL
+    private int eamil_status;               //NOTNULL
+    private int mod_status;                 //NOTNULL
+    private String create_date;
+    private String update_date;
+    private String login_date;
+    private String profile_img_url;
+    private int profile_img_byte;
+    private String profile_img_filename;
+    private int google_status;
+    private int kakao_status;
+    private String google_user_code;
+    private String kakao_user_code;
+    private String user_flag;               //NOTNULL
 }
