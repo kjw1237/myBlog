@@ -51,14 +51,23 @@ public class UserController {
         if(result == 1) {
             out.println("<script>alert('계정이 등록 되었습니다'); location.href='/user/login';</script>");
         } else {
-            out.println("<script>alert('회원가입 실패.'); location.href='/join/join';</script>");
+            out.println("<script>alert('회원가입 실패.'); location.href='/user/join';</script>");
         }
         out.flush();
 
     }
     @RequestMapping(value ="/user_login",method = RequestMethod.POST)
     public void login(UserVO VO, HttpServletResponse response) throws IOException{
+        int result = uSvc.user_login(VO);
 
+        response.setContentType("text/html; charset=UTF-8");
+        PrintWriter out = response.getWriter();
+
+        if(result == 1) {
+            out.println("<script>alert('로그인하였습니다.'); location.href='';</script>");
+        } else {
+            out.println("<script>alert('아이디나 비밀번호를 다시 확인해주세요.'); location.href='/user/login';</script>");
+        }
+        out.flush();
     }
-    
 }
