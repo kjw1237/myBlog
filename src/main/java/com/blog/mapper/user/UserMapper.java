@@ -1,5 +1,6 @@
 package com.blog.mapper.user;
 
+import com.blog.mvc.user.UserVO;
 import org.apache.ibatis.annotations.Mapper;
 
 /**
@@ -13,4 +14,10 @@ import org.apache.ibatis.annotations.Mapper;
 
 @Mapper
 public interface UserMapper {
+
+
+    int user_register(UserVO uVo);
+    int user_login(UserVO uVO);
+
+
 }
