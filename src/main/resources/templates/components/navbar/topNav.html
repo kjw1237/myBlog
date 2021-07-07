@@ -5,13 +5,14 @@
             <div class="container">
                 <div class="row">
                     <div class="col-9 social">
-                        <a th:if="${session.isEmpty()}" th:href="@{user/login}" th:text="로그인"/>
-                        <th:block th:if="${!session.isEmpty()}">
-                            <a href="#" th:text="${session.userData.user_name} + '님'"/>
-                            <a th:href="@{user/logout}" th:text="로그아웃"/>
+                        <th:block th:if="${session.isEmpty()}">
+                            <a th:href="@{user/login}" th:text="로그인"/>
+                            <a th:href="@{user/join}" th:text="회원가입"/>
                         </th:block>
-                        <th:block th:if="${session.isEmpty()}" th:href="@{user/join}" th:text="회원가입">
-                            <a th:unless="${session.isEmpty() != null}" th:text=""/>
+
+                        <th:block th:if="${!session.isEmpty()}">
+                            <a href="#" th:text="${session.userData.user_name} + '님!'"/>
+                            <a th:href="@{user/logout}" th:text="로그아웃"/>
                         </th:block>
                     </div>
                     <div class="col-3 search-top">
