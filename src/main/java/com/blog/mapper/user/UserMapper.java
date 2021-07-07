@@ -17,7 +17,7 @@ public interface UserMapper {
 
 
     int user_register(UserVO uVo);
-    int user_login(UserVO uVO);
+    UserVO user_login(UserVO uVO);
 
 
 }

@@ -2253,3 +2253,155 @@ org.thymeleaf.exceptions.TemplateInputException: Error resolving template [user/
 2021-07-01 16:53:11 [WARN ] [Logger.java]warn(44) : No MyBatis mapper was found in '[com.blog.mapper.*]' package. Please check your configuration.
 2021-07-01 16:53:12 [WARN ] [Logger.java]warn(44) : Property 'mapperLocations' was specified but matching resources are not found.
 2021-07-01 16:53:12 [INFO ] [StartupInfoLogger.java]logStarted(61) : Started BlogApplication in 2.474 seconds (JVM running for 3.825)
+2021-07-01 17:44:11 [INFO ] [StartupInfoLogger.java]logStarting(55) : Starting MainApplication using Java 1.8.0_292 on DESKTOP-1LJLV0R with PID 12124 (C:\Users\uk959\IdeaProjects\blog\build\classes\java\main started by uk959 in C:\Users\uk959\IdeaProjects\blog)
+2021-07-01 17:44:11 [INFO ] [SpringApplication.java]logStartupProfileInfo(663) : No active profile set, falling back to default profiles: default
+2021-07-01 17:44:12 [WARN ] [Logger.java]warn(44) : No MyBatis mapper was found in '[com.blog.mapper.*]' package. Please check your configuration.
+2021-07-01 17:44:12 [WARN ] [AbstractApplicationContext.java]refresh(591) : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userService': Unsatisfied dependency expressed through field 'uMap'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.blog.mapper.UserMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2021-07-01 17:44:12 [ERROR] [LoggingFailureAnalysisReporter.java]report(40) : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field uMap in com.blog.service.UserService required a bean of type 'com.blog.mapper.UserMapper' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.blog.mapper.UserMapper' in your configuration.
+
+2021-07-01 17:44:37 [INFO ] [StartupInfoLogger.java]logStarting(55) : Starting MainApplication using Java 1.8.0_292 on DESKTOP-1LJLV0R with PID 1856 (C:\Users\uk959\IdeaProjects\blog\build\classes\java\main started by uk959 in C:\Users\uk959\IdeaProjects\blog)
+2021-07-01 17:44:37 [INFO ] [SpringApplication.java]logStartupProfileInfo(663) : No active profile set, falling back to default profiles: default
+2021-07-01 17:44:38 [WARN ] [Logger.java]warn(44) : No MyBatis mapper was found in '[com.blog.mapper.*]' package. Please check your configuration.
+2021-07-01 17:44:39 [WARN ] [AbstractApplicationContext.java]refresh(591) : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userService': Unsatisfied dependency expressed through field 'uMap'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.blog.mapper.UserMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2021-07-01 17:44:39 [ERROR] [LoggingFailureAnalysisReporter.java]report(40) : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field uMap in com.blog.service.UserService required a bean of type 'com.blog.mapper.UserMapper' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.blog.mapper.UserMapper' in your configuration.
+
+2021-07-01 17:45:44 [INFO ] [StartupInfoLogger.java]logStarting(55) : Starting MainApplication using Java 1.8.0_292 on DESKTOP-1LJLV0R with PID 9448 (C:\Users\uk959\IdeaProjects\blog\build\classes\java\main started by uk959 in C:\Users\uk959\IdeaProjects\blog)
+2021-07-01 17:45:44 [INFO ] [SpringApplication.java]logStartupProfileInfo(663) : No active profile set, falling back to default profiles: default
+2021-07-01 17:45:45 [WARN ] [Logger.java]warn(44) : No MyBatis mapper was found in '[com.blog.mapper.*]' package. Please check your configuration.
+2021-07-01 17:45:46 [WARN ] [Logger.java]warn(44) : Property 'mapperLocations' was specified but matching resources are not found.
+2021-07-01 17:45:46 [INFO ] [StartupInfoLogger.java]logStarted(61) : Started MainApplication in 2.499 seconds (JVM running for 4.476)
+2021-07-01 17:46:16 [INFO ] [ErrorExceptionConfig.java]handleError(33) : ########## ERROR!!! ##########
+2021-07-01 17:46:16 [INFO ] [ErrorExceptionConfig.java]handleError(34) : 에러 구분  : 404
+2021-07-01 17:46:16 [INFO ] [ErrorExceptionConfig.java]handleError(35) : 발생일     : 20210701 05:46
+2021-07-01 17:46:16 [INFO ] [ErrorExceptionConfig.java]handleError(36) : ##############################
+2021-07-01 17:46:16 [INFO ] [ErrorExceptionConfig.java]handleError(33) : ########## ERROR!!! ##########
+2021-07-01 17:46:16 [INFO ] [ErrorExceptionConfig.java]handleError(34) : 에러 구분  : 404
+2021-07-01 17:46:16 [INFO ] [ErrorExceptionConfig.java]handleError(35) : 발생일     : 20210701 05:46
+2021-07-01 17:46:16 [INFO ] [ErrorExceptionConfig.java]handleError(36) : ##############################
+2021-07-01 17:52:47 [INFO ] [StartupInfoLogger.java]logStarting(55) : Starting MainApplication using Java 1.8.0_292 on DESKTOP-1LJLV0R with PID 17512 (C:\Users\uk959\IdeaProjects\blog\build\classes\java\main started by uk959 in C:\Users\uk959\IdeaProjects\blog)
+2021-07-01 17:52:47 [INFO ] [SpringApplication.java]logStartupProfileInfo(663) : No active profile set, falling back to default profiles: default
+2021-07-01 17:52:48 [WARN ] [Logger.java]warn(44) : No MyBatis mapper was found in '[com.blog.mapper.*]' package. Please check your configuration.
+2021-07-01 17:52:49 [WARN ] [AbstractApplicationContext.java]refresh(591) : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userService': Unsatisfied dependency expressed through field 'uMap'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.blog.mapper.UserMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2021-07-01 17:52:49 [ERROR] [LoggingFailureAnalysisReporter.java]report(40) : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field uMap in com.blog.service.UserService required a bean of type 'com.blog.mapper.UserMapper' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.blog.mapper.UserMapper' in your configuration.
+
+2021-07-01 17:54:42 [INFO ] [StartupInfoLogger.java]logStarting(55) : Starting MainApplication using Java 1.8.0_292 on DESKTOP-1LJLV0R with PID 1644 (C:\Users\uk959\IdeaProjects\blog\build\classes\java\main started by uk959 in C:\Users\uk959\IdeaProjects\blog)
+2021-07-01 17:54:42 [INFO ] [SpringApplication.java]logStartupProfileInfo(663) : No active profile set, falling back to default profiles: default
+2021-07-01 17:54:42 [WARN ] [Logger.java]warn(44) : No MyBatis mapper was found in '[com.blog.mapper.*]' package. Please check your configuration.
+2021-07-01 17:54:47 [INFO ] [StartupInfoLogger.java]logStarting(55) : Starting MainApplication using Java 1.8.0_292 on DESKTOP-1LJLV0R with PID 9792 (C:\Users\uk959\IdeaProjects\blog\build\classes\java\main started by uk959 in C:\Users\uk959\IdeaProjects\blog)
+2021-07-01 17:54:47 [INFO ] [SpringApplication.java]logStartupProfileInfo(663) : No active profile set, falling back to default profiles: default
+2021-07-01 17:54:47 [WARN ] [Logger.java]warn(44) : No MyBatis mapper was found in '[com.blog.mapper.*]' package. Please check your configuration.
+2021-07-01 17:54:48 [WARN ] [AbstractApplicationContext.java]refresh(591) : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userService': Unsatisfied dependency expressed through field 'uMap'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.blog.mapper.UserMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2021-07-01 17:54:48 [ERROR] [LoggingFailureAnalysisReporter.java]report(40) : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field uMap in com.blog.service.UserService required a bean of type 'com.blog.mapper.UserMapper' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.blog.mapper.UserMapper' in your configuration.
+
+2021-07-01 17:58:26 [INFO ] [StartupInfoLogger.java]logStarting(55) : Starting MainApplication using Java 1.8.0_292 on DESKTOP-1LJLV0R with PID 9116 (C:\Users\uk959\IdeaProjects\blog\build\classes\java\main started by uk959 in C:\Users\uk959\IdeaProjects\blog)
+2021-07-01 17:58:26 [INFO ] [SpringApplication.java]logStartupProfileInfo(663) : No active profile set, falling back to default profiles: default
+2021-07-01 17:58:26 [WARN ] [Logger.java]warn(44) : No MyBatis mapper was found in '[com.blog.mapper.*]' package. Please check your configuration.
+2021-07-01 17:58:27 [WARN ] [Logger.java]warn(44) : Property 'mapperLocations' was specified but matching resources are not found.
+2021-07-01 17:58:28 [INFO ] [StartupInfoLogger.java]logStarted(61) : Started MainApplication in 2.499 seconds (JVM running for 3.832)
+2021-07-01 18:01:14 [INFO ] [StartupInfoLogger.java]logStarting(55) : Starting MainApplication using Java 1.8.0_292 on DESKTOP-1LJLV0R with PID 6404 (C:\Users\uk959\IdeaProjects\blog\build\classes\java\main started by uk959 in C:\Users\uk959\IdeaProjects\blog)
+2021-07-01 18:01:14 [INFO ] [SpringApplication.java]logStartupProfileInfo(663) : No active profile set, falling back to default profiles: default
+2021-07-01 18:01:15 [WARN ] [Logger.java]warn(44) : No MyBatis mapper was found in '[com.blog.mapper.*]' package. Please check your configuration.
+2021-07-01 18:01:15 [WARN ] [Logger.java]warn(44) : Property 'mapperLocations' was specified but matching resources are not found.
+2021-07-01 18:01:16 [INFO ] [StartupInfoLogger.java]logStarted(61) : Started MainApplication in 2.391 seconds (JVM running for 3.741)
+2021-07-01 18:01:36 [INFO ] [ErrorExceptionConfig.java]handleError(33) : ########## ERROR!!! ##########
+2021-07-01 18:01:36 [INFO ] [ErrorExceptionConfig.java]handleError(34) : 에러 구분  : 404
+2021-07-01 18:01:36 [INFO ] [ErrorExceptionConfig.java]handleError(35) : 발생일     : 20210701 06:01
+2021-07-01 18:01:36 [INFO ] [ErrorExceptionConfig.java]handleError(36) : ##############################
+2021-07-01 18:03:03 [INFO ] [StartupInfoLogger.java]logStarting(55) : Starting MainApplication using Java 1.8.0_292 on DESKTOP-1LJLV0R with PID 18164 (C:\Users\uk959\IdeaProjects\blog\build\classes\java\main started by uk959 in C:\Users\uk959\IdeaProjects\blog)
+2021-07-01 18:03:03 [INFO ] [SpringApplication.java]logStartupProfileInfo(663) : No active profile set, falling back to default profiles: default
+2021-07-01 18:03:03 [WARN ] [Logger.java]warn(44) : No MyBatis mapper was found in '[com.blog.mapper.*]' package. Please check your configuration.
+2021-07-01 18:03:15 [INFO ] [StartupInfoLogger.java]logStarting(55) : Starting MainApplication using Java 1.8.0_292 on DESKTOP-1LJLV0R with PID 10396 (C:\Users\uk959\IdeaProjects\blog\build\classes\java\main started by uk959 in C:\Users\uk959\IdeaProjects\blog)
+2021-07-01 18:03:15 [INFO ] [SpringApplication.java]logStartupProfileInfo(663) : No active profile set, falling back to default profiles: default
+2021-07-01 18:03:15 [WARN ] [Logger.java]warn(44) : No MyBatis mapper was found in '[com.blog.mapper.*]' package. Please check your configuration.
+2021-07-01 18:03:16 [WARN ] [Logger.java]warn(44) : Property 'mapperLocations' was specified but matching resources are not found.
+2021-07-01 18:03:17 [INFO ] [StartupInfoLogger.java]logStarted(61) : Started MainApplication in 2.599 seconds (JVM running for 3.977)
+2021-07-01 18:03:28 [INFO ] [ErrorExceptionConfig.java]handleError(33) : ########## ERROR!!! ##########
+2021-07-01 18:03:28 [INFO ] [ErrorExceptionConfig.java]handleError(34) : 에러 구분  : 404
+2021-07-01 18:03:28 [INFO ] [ErrorExceptionConfig.java]handleError(35) : 발생일     : 20210701 06:03
+2021-07-01 18:03:28 [INFO ] [ErrorExceptionConfig.java]handleError(36) : ##############################
+2021-07-01 18:27:52 [INFO ] [StartupInfoLogger.java]logStarting(55) : Starting MainApplication using Java 1.8.0_292 on DESKTOP-1LJLV0R with PID 16976 (C:\Users\uk959\IdeaProjects\blog\build\classes\java\main started by uk959 in C:\Users\uk959\IdeaProjects\blog)
+2021-07-01 18:27:52 [INFO ] [SpringApplication.java]logStartupProfileInfo(663) : No active profile set, falling back to default profiles: default
+2021-07-01 18:27:53 [WARN ] [Logger.java]warn(44) : No MyBatis mapper was found in '[com.blog.mapper.*.*]' package. Please check your configuration.
+2021-07-01 18:27:53 [WARN ] [AbstractApplicationContext.java]refresh(591) : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userController': Unsatisfied dependency expressed through field 'uSvc'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userService': Unsatisfied dependency expressed through field 'uMap'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.blog.mapper.user.UserMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2021-07-01 18:27:54 [ERROR] [LoggingFailureAnalysisReporter.java]report(40) : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field uMap in com.blog.mvc.user.UserService required a bean of type 'com.blog.mapper.user.UserMapper' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.blog.mapper.user.UserMapper' in your configuration.
+
