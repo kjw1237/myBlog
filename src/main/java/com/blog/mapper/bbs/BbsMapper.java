@@ -1,5 +1,6 @@
 package com.blog.mapper.bbs;
 
+import com.blog.mvc.bbs.BbsVO;
 import org.apache.ibatis.annotations.Mapper;
 
 /**
@@ -12,4 +13,6 @@ import org.apache.ibatis.annotations.Mapper;
  **/
 @Mapper
 public interface BbsMapper {
+
+    int bbs_register(BbsVO bVo);
 }

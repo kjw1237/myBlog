@@ -1,5 +1,8 @@
 package com.blog.mvc.bbs;
 
+import com.blog.mapper.bbs.BbsMapper;
+import com.blog.mvc.user.UserVO;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 /**
@@ -12,4 +15,12 @@ import org.springframework.stereotype.Service;
  **/
 @Service
 public class BbsService {
+
+    @Autowired
+    private BbsMapper bMap;
+
+    public int board_register(BbsVO vo){
+        return bMap.bbs_register(vo);
+    }
+
 }

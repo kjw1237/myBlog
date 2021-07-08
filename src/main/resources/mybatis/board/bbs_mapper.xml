@@ -1,5 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.blog.mapper.bbs.BbsMapper">
-
+    <!--BBS_TITLE , BBS_CONTENT, CONTENT_TITLE, CONTENT_IMG_URL , IMG_BYTE, IMG_FILENAME , USER_ID , CATEGORY_CODE-->
+    <insert id="board_register" parameterType="com.blog.mvc.bbs.BbsVO">
+        CALL SYS_BOARD_REGISTER (,
+		   		   #{BBS_TITLE} ,
+		  		   #{BBS_CONTENT},
+		  		   #{CONTENT_IMG_URL},
+		  		   #{CONTENT_IMG_BYTE},
+		  		   #{CONTENT_IMG_FILENAME},
+		  		   #{USER_ID},
+            	   'test_code');
+    </insert>
 </mapper>

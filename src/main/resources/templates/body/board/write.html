@@ -1,6 +1,9 @@
 <!DOCTYPE html>
-<html xmlns:th="http://www.thymeleaf.org">
-<body th:fragment="boradWrite">
+<html xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+      layout:decorator="~{layout/default}">
+
+<body layout:fragment="content">
     <section class="site-section">
         <div class="container">
             <div class="row mb-4">
@@ -11,7 +14,7 @@
             <div class="row blog-entries">
                 <div class="col-md-12 col-lg-8 main-content">
 
-                    <form action="/board/add" enctype="multipart/form-data" method="post" accept-charset="utf-8" class="form-signin">
+                    <form action="/board_register" enctype="multipart/form-data" method="post" accept-charset="utf-8" class="form-signin">
                         <input type="hidden" value="<?php echo date('Y-m-d H:i');?>" id="regdate" name="regdate"/>
                         <input type="hidden" value="<?=$this->session->userdata('uid')?>" id="uid" name="uid"/>
                         <div class="row">
@@ -28,11 +31,7 @@
                                     <option value="패션">패션</option>
                                 </select>
                             </div>
-                            <div class="col-md-12 form-group">
-                                <select class="form-control" id="category2" name="category2">
-                                    <option value="개발">대분류를 먼저 선택하세요.</option>
-                                </select>
-                            </div>
+
                             <div class="col-md-12 form-group">
                                 <label for="tag">태그</label>
                                 <input type="text" class="form-control " id="tag" name="tag" placeholder="태그를 입력하세요.">

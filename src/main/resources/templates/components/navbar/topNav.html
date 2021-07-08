@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html xmlns:th="http://www.thymeleaf.org">
-    <header th:fragment="topNav" role="banner">
+<th:block th:fragment="topNav">
+    <header role="banner">
         <div class="top-bar">
             <div class="container">
                 <div class="row">
@@ -9,10 +10,10 @@
                             <a th:href="@{user/login}" th:text="로그인"/>
                             <a th:href="@{user/join}" th:text="회원가입"/>
                         </th:block>
-
                         <th:block th:if="${!session.isEmpty()}">
                             <a href="#" th:text="${session.userData.user_name} + '님!'"/>
                             <a th:href="@{user/logout}" th:text="로그아웃"/>
+                            <a th:if="${session.userData.getUser_flag().toString().equals('admin')}" th:href="@{board/write}" th:text="글쓰기"/>
                         </th:block>
                     </div>
                     <div class="col-3 search-top">
@@ -83,4 +84,5 @@
             </div>
         </nav>
     </header>
+</th:block>
 </html>
