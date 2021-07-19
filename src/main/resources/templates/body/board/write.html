@@ -3,103 +3,140 @@
       xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
       layout:decorator="~{layout/default}">
 
-<body layout:fragment="content">
-    <section class="site-section">
-        <div class="container">
-            <div class="row mb-4">
-                <div class="col-md-6">
-                    <h1>게시글 작성</h1>
+<body layout:fragment="content" class="site-section py-sm">
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">카테고리 관리</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
                 </div>
-            </div>
-            <div class="row blog-entries">
-                <div class="col-md-12 col-lg-8 main-content">
-
-                    <form action="/board_register" enctype="multipart/form-data" method="post" accept-charset="utf-8" class="form-signin">
-                        <input type="hidden" value="<?php echo date('Y-m-d H:i');?>" id="regdate" name="regdate"/>
-                        <input type="hidden" value="<?=$this->session->userdata('uid')?>" id="uid" name="uid"/>
-                        <div class="row">
-                            <div class="col-md-12 form-group">
-                                <label for="category1">카테고리</label>
-                                <select class="form-control" id="category1" name="category1" onchange="categoryChange(this)">
-                                    <option>카테고리를 선택하세요.</option>
-                                    <option value="스터디">스터디</option>
-                                    <option value="개발노트">개발노트</option>
-                                    <option value="유용 사이트">유용 사이트</option>
-                                    <option value="여행">여행</option>
-                                    <option value="음식">음식</option>
-                                    <option value="테크">테크</option>
-                                    <option value="패션">패션</option>
-                                </select>
-                            </div>
-
-                            <div class="col-md-12 form-group">
-                                <label for="tag">태그</label>
-                                <input type="text" class="form-control " id="tag" name="tag" placeholder="태그를 입력하세요.">
-                            </div>
-                            <div class="col-md-12 form-group">
-                                <label for="board_title">제목</label>
-                                <input type="text" class="form-control " id="board_title" name="board_title" placeholder="제목을 입력하세요.">
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-12 form-group">
-                                <label for="board_content">내용</label>
-                                <textarea id="board_content" name="board_content" class="form-control " cols="30" rows="8"></textarea>
-                                <script>
-                                    CKEDITOR.replace('board_content',{
-                                        height: 500,
-                                        'filebrowserUploadUrl':'/board/receive_img'
-                                    });
-                                </script>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-12 form-group">
-                                <input id="img" name="img" type="file"/>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-2 form-group container">
-                                <button type="submit" class="btn btn-primary"><i class="fas fa-plus"></i> 작성</button>
-                            </div>
-                        </div>
-                    </form>
+                <div class="modal-body">
+                    <div>
+                        카테고리 추가
+                        <form action="/category_register" method="post">
+                            <input class="input50" type="text" id="category_name" name="category_name" placeholder="카테고리를 입력해주세요">
+                            <span class="focus-input50"></span>
+                            <button type="submit" class="btn-outline-success">+</button>
+                        </form>
+                    </div>
+                    <div>
+                        카테고리 삭제
+                        <!--CATEGORY DELETE-->
+                        <table id="categoryTable">
+                            <thead>
+                            <tr>
+                                <th>카테고리 번호</th>
+                                <th>카테고리 이름</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                                <tr th:each="category : ${categoryList}">
+                                    <td class="hidden">
+                                        <span th:text="${category.getCategory_code()}"></span>
+                                    </td>
+                                    <td>
+                                        <span th:text="${category.getCategory_name()}"></span>
+                                    </td>
+                                    <a class="btn btn-outline-danger">삭제</a>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
                 </div>
+
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">닫기</button>
                 </div>
             </div>
         </div>
-        <script>
-            function categoryChange(category) {
-                var study = ["eduJava", "eduJavaScript" , "eduDB"];
-                var dev = ["Spring" , "CI" , "JS" , "DB" , "JAVA" , "OTHER"];
-                var share = ["BootStrap" , "publishing" , "Develop" , "OTHER"];
-                var trip = ["Trip"];
-                var food = ["Food"];
-                var tech = ["Tech"];
-                var fashion = ["Fashion"];
+    </div>
+    <!--Modal-->
+   <section class="site-section">
+       <div class="container">
+           <div class="row">
+               <div class="col-md-6">
+                   <h1 class="mb-4">게시글 작성</h1>
+               </div>
+           </div>
+           <div class="row blog-entries">
+               <div class="col-md-12 col-lg-8 main-content">
+                   <form action="/board_write" enctype="multipart/form-data" method="post" accept-charset="utf-8" class="form-signin">
+                       <input type="hidden" th:value="${session.userData.getUser_id()}" id="user_id" name="user_id"/>
+                       <div class="row">
+                           <div class="col-md-12 form-group">
+                               <label>카테고리
+                                   <a class="btn btn-sm btn-outline-success" id="alert">ADD</a>
+                               </label>
+                               <select class="form-control" id="category1">
+                                   <option>카테고리를 선택하세요.</option>
+                                   <option value="스터디">스터디</option>
+                                   <option value="개발노트">개발노트</option>
+                                   <option value="유용 사이트">유용 사이트</option>
+                                   <option value="여행">여행</option>
+                                   <option value="음식">음식</option>
+                                   <option value="테크">테크</option>
+                                   <option value="패션">패션</option>
+                               </select>
+                           </div>
+                           <div class="col-md-12 form-group">
+                               <select class="form-control" id="category2" name="category2">
+                                   <option value="개발">대분류를 먼저 선택하세요.</option>
+                               </select>
+                           </div>
+                           <div class="col-md-12 form-group">
+                               <label>태그</label>
+                               <input type="text" class="form-control " id="tag" name="tag" placeholder="태그를 입력하세요.">
+                           </div>
+                           <div class="col-md-12 form-group">
+                               <label>제목</label>
+                               <input type="text" class="form-control " id="bbs_title" name="board_title" placeholder="제목을 입력하세요.">
+                           </div>
+                       </div>
+                       <div class="row">
+                           <div class="col-md-12 form-group">
+                               <label>내용</label>
+                               <textarea name="bbs_content" class="form-control" cols="30" rows="8"></textarea>
+                               <script>
+                                   CKEDITOR.replace('bbs_content' , {
+                                       height: 500,
+                                       'filebrowserUploadUrl' : '/board/receive_img'
+                                   });
+                               </script>
+                           </div>
+                       </div>
+                       <div class="row">
+                           <input id="img" name="img" type="file"/>
+                       </div>
+                       <div class="row">
+                           <div class="col-md-2 form-group container">
+                               <button type="submit" class="btn btn-primary"><i class="fas fa-plus"></i> 작성</button>
+                           </div>
+                       </div>
+                   </form>
+               </div>
+               <th:block th:replace="components/navbar/sideBar :: SideBar"></th:block>
+           </div>
+       </div>
+   </section>
+<script>
 
-                var target = document.getElementById("category2");
-                if(category.value == "스터디") var more = study;
-                else if(category.value == "개발노트") var more = dev;
-                else if(category.value == "유용 사이트") var more = share;
-                else if(category.value == "여행") var more = trip;
-                else if(category.value == "음식") var more = food;
-                else if(category.value == "테크") var more = tech;
-                else if(category.value == "패션") var more = fashion;
-
-                target.options.length = 0;
-
-                for (total in more) {
-                    var opt = document.createElement("option");
-                    opt.value = more[total];
-                    opt.innerHTML = more[total];
-                    target.appendChild(opt);
-                }
+    function getCategoryList() {
+        $.ajax({
+            async: false ,
+            url : "/category_list",
+            type : "POST" ,
+            dataType: "json" ,
+            data : {
+                "category_code" : cateogry_code ,
+                "category_name" : category_name
             }
-        </script>
-
-            }
-        </script>
-    </section>
+        })
+    }
+</script>
 </body>
+<th:block th:replace="components/main/scripts :: footerScripts"></th:block>
 </html>

@@ -7,17 +7,17 @@
                 <div class="row">
                     <div class="col-9 social">
                         <th:block th:if="${session.isEmpty()}">
-                            <a th:href="@{user/login}" th:text="로그인"/>
-                            <a th:href="@{user/join}" th:text="회원가입"/>
+                            <a th:href="@{/user/login}" th:text="로그인"/>
+                            <a th:href="@{/user/join}" th:text="회원가입"/>
                         </th:block>
                         <th:block th:if="${!session.isEmpty()}">
                             <a href="#" th:text="${session.userData.user_name} + '님!'"/>
-                            <a th:href="@{user/logout}" th:text="로그아웃"/>
-                            <a th:if="${session.userData.getUser_flag().toString().equals('admin')}" th:href="@{board/write}" th:text="글쓰기"/>
+                            <a th:href="@{/user/logout}" th:text="로그아웃"/>
+                            <a th:if="${session.userData.getUser_flag().toString().equals('admin')}" th:href="@{/board/write}" th:text="글쓰기"/>
                         </th:block>
                     </div>
                     <div class="col-3 search-top">
-                            <span class="se arch-top-form">
+                            <span class="search-top-form">
                                 <a href="#" onclick="search_data();" class="icon fas fa-search"></a>
                                 <input type="text" id="keywoard" name="keywoard" placeholder="검색어를 입력하세요">
                             </span>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.blog.mapper.category.CategoryMapper">
+
+	<!--category_name-->
+    <insert id="category_register" parameterType="com.blog.mvc.category.CategoryVO">
+        CALL SYS_CATEGORY_REGISTER ( #{category_name} );
+    </insert>
+
+    <select id="category_list" resultType="com.blog.mvc.category.CategoryVO">
+        CALL SYS_CATEGORY_LIST();
+    </select>
+
+    <delete id="category_delete">
+        CALL SYS_CATEGORY_DELETE();
+    </delete>
+</mapper>

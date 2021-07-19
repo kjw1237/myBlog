@@ -8,7 +8,7 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 public class StaticResourceConfig implements WebMvcConfigurer {
     @Override
     public void addResourceHandlers(ResourceHandlerRegistry registry) {
-        registry.addResourceHandler("/img/**",
+        registry.addResourceHandler("/images/**",
                 "/css/**"           ,
                 "/js/**"            ,
                 "/fa/**"            ,
@@ -18,8 +18,10 @@ public class StaticResourceConfig implements WebMvcConfigurer {
                 "/images/**"        ,
                 "/login_css/**"     ,
                 "/login_vendor/**"  ,
-                "/scss/**")
-                .addResourceLocations("classpath:/static/img/"  ,
+                "/scss/**"          ,
+                "/ckeditor-add/**"  ,
+                "/ckeditor-comment")
+                .addResourceLocations("classpath:/static/images/"  ,
                         "classpath:/static/css/"                ,
                         "classpath:/static/js/"                 ,
                         "classpath:/static/fontawesome/"        ,
@@ -29,6 +31,8 @@ public class StaticResourceConfig implements WebMvcConfigurer {
                         "classpath:/static/images/"             ,
                         "classpath:/static/login_css/"          ,
                         "classpath:/static/login_vendor/"       ,
-                        "classpath:/static/scss/");
+                        "classpath:/static/scss/"               ,
+                        "classpath:/static/ckeditor-add/"       ,
+                        "classpath:/static/ckeditor-comment");
     }
 }

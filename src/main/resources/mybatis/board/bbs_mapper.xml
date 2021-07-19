@@ -3,13 +3,14 @@
 <mapper namespace="com.blog.mapper.bbs.BbsMapper">
     <!--BBS_TITLE , BBS_CONTENT, CONTENT_TITLE, CONTENT_IMG_URL , IMG_BYTE, IMG_FILENAME , USER_ID , CATEGORY_CODE-->
     <insert id="board_register" parameterType="com.blog.mvc.bbs.BbsVO">
-        CALL SYS_BOARD_REGISTER (,
+        CALL SYS_BOARD_REGISTER (
 		   		   #{BBS_TITLE} ,
 		  		   #{BBS_CONTENT},
 		  		   #{CONTENT_IMG_URL},
 		  		   #{CONTENT_IMG_BYTE},
 		  		   #{CONTENT_IMG_FILENAME},
-		  		   #{USER_ID},
+		  		   #{user_name},
             	   'test_code');
     </insert>
+
 </mapper>

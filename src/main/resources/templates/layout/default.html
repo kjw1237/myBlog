@@ -2,8 +2,9 @@
 <html xmlns:th="http://www.thymeleaf.org"
       xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
   <head th:replace="components/main/main_header :: mainHeader"></head>
+
   <div class="wrap">
-    <header th:replace="components/navbar/topNav :: topNav"></header>
+    <th:block th:replace="components/navbar/topNav"></th:block>
 
     <!-- Main Content-->
     <div>
@@ -14,4 +15,5 @@
 
     <footer th:replace="components/main/footer"></footer>
   </div>
+
 </html >
