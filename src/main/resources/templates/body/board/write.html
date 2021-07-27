@@ -14,42 +14,34 @@
                         <span aria-hidden="true">&times;</span>
                     </button>
                 </div>
-                <div class="modal-body">
-                    <div>
-                        카테고리 추가
-                        <form action="/category_register" method="post">
+                <div class="modal-body mt-4">
+                    <div class="mb-5">
+                        <h3 class="mb-4">카테고리 추가</h3>
+                        <div class="input-group">
                             <input class="input50" type="text" id="category_name" name="category_name" placeholder="카테고리를 입력해주세요">
                             <span class="focus-input50"></span>
-                            <button type="submit" class="btn-outline-success">+</button>
-                        </form>
+                            <button id="add_category" class="fa fa-plus btn-outline-success" style="color:#20c997;"></button>
+                        </div>
                     </div>
-                    <div>
-                        카테고리 삭제
-                        <!--CATEGORY DELETE-->
-                        <table id="categoryTable">
-                            <thead>
-                            <tr>
-                                <th>카테고리 번호</th>
-                                <th>카테고리 이름</th>
-                            </tr>
-                            </thead>
-                            <tbody>
-                                <tr th:each="category : ${categoryList}">
-                                    <td class="hidden">
-                                        <span th:text="${category.getCategory_code()}"></span>
-                                    </td>
-                                    <td>
-                                        <span th:text="${category.getCategory_name()}"></span>
-                                    </td>
-                                    <a class="btn btn-outline-danger">삭제</a>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
+                    <div id="container" class="mb-3">
+                        <h3 class="mb-4">카테고리 삭제</h3>
 
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">닫기</button>
+
+                        <th:block th:if="${categoryList == null}">
+                            <h3 class="text-center">등록된 카테고리가 없습니다!</h3>
+                        </th:block>
+
+                        <div class="col-lg-8 col-xs-12" th:if="${categoryList != null}">
+                            <th:block th:each="cl : ${categoryList}">
+                                <input type="checkbox" th:id="${cl.category_code}" name="chk_ct" th:value="${cl.category_code}" onclick="check(this)">
+                                <label th:for="${cl.category_code}" th:text="${cl.category_name}"></label>
+                                <br/>
+                            </th:block>
+                        </div>
+                        <div class="modal-footer">
+                            <button class="btn fa fa-trash mr-4" id="del_category" style="color: #c80000;"></button>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -69,17 +61,19 @@
                        <div class="row">
                            <div class="col-md-12 form-group">
                                <label>카테고리
-                                   <a class="btn btn-sm btn-outline-success" id="alert">ADD</a>
+                                   <a class="fa fa-cog ml-2" href="#" id="alert"></a>
                                </label>
+                               <!--
+                               <tr th:each="cl : ${categoryList}">
+                                    <form action="/category_delete" method="post">
+                                        <td name="cateogry_name"th:text="${cl.category_name}"></td>
+                                        <td name="category_code"> <button class="fa fa-trash mr-4" style="color: #c80000;" type="submit"> </button></td>
+                                    </form>
+                                </tr>
+                               -->
                                <select class="form-control" id="category1">
-                                   <option>카테고리를 선택하세요.</option>
-                                   <option value="스터디">스터디</option>
-                                   <option value="개발노트">개발노트</option>
-                                   <option value="유용 사이트">유용 사이트</option>
-                                   <option value="여행">여행</option>
-                                   <option value="음식">음식</option>
-                                   <option value="테크">테크</option>
-                                   <option value="패션">패션</option>
+                                   <option value="0">카테고리를 선택하세요.</option>
+                                   <option th:each="itemData : ${categoryList}" th:value="${itemData.category_code}" th:text="${itemData.category_name}"></option>
                                </select>
                            </div>
                            <div class="col-md-12 form-group">
@@ -123,19 +117,64 @@
        </div>
    </section>
 <script>
+    var chkVal='';
 
-    function getCategoryList() {
-        $.ajax({
-            async: false ,
-            url : "/category_list",
-            type : "POST" ,
-            dataType: "json" ,
-            data : {
-                "category_code" : cateogry_code ,
-                "category_name" : category_name
-            }
-        })
+    function check(chkbox) {
+        if($(chkbox).is(":checked")){
+            chkVal = chkVal+chkbox.value+",";
+        }
+        else{
+            chkVal = chkVal.replace(chkbox.value+',','');
+        }
     }
+
+    $("#alert").on("click" , function () {
+        $('#exampleModal').modal('show');
+    });
+
+    $("#del_category").on("click" , function () {
+        var str = chkVal.slice(0, -1);
+        if(str == '') {
+            alert('삭제할 카테고리를 선택하세요.');
+            return false;
+        }
+        var result = confirm("삭제하시겠습니까?");
+        if(result){
+            $.ajax({
+                url: "/del_category",
+                dataType: "json",
+                data: { categoryArray: str },
+                type: "GET",
+                success(result){
+                    if(result == 1){
+                        alert("카테고리가 삭제되었습니다.");
+                        location.reload();
+                    } else {
+                        alert("삭제실패");
+                    }
+                }
+            });
+        }
+    });
+
+    $("#add_category").on("click" , function () {
+        $.ajax({
+            url: "/add_category",
+            dataType: "json",
+            data: { category_name: $("#category_name").val() },
+            type: "POST",
+            success(result){
+                if(result == 1){
+                    alert("카테고리가 추가되었습니다.");
+                    location.reload();
+                } else {
+                    alert("등록실패");
+                }
+            }
+
+        })
+    });
+
 </script>
 </body>
 <th:block th:replace="components/main/scripts :: footerScripts"></th:block>

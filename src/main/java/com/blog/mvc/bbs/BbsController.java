@@ -1,5 +1,7 @@
 package com.blog.mvc.bbs;
 
+import com.blog.mvc.category.CategoryListVO;
+import com.blog.mvc.category.CategoryService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -10,6 +12,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.io.PrintWriter;
+import java.util.List;
 
 /**
  * @package : com.blog.mvc.bbs
@@ -24,12 +27,16 @@ public class BbsController {
 
     @Autowired
     private BbsService bSvc;
+    @Autowired
+    private CategoryService cSvc;
 
 
     //게시글 작성 페이지 이동
     @RequestMapping(value = "board/write")
     public ModelAndView openWritePage() {
         ModelAndView mav = new ModelAndView();
+        List<CategoryListVO> categoryList = cSvc.category_list();
+        mav.addObject("categoryList",categoryList);
         mav.setViewName("body/board/write");
         return mav;
     }

@@ -7,11 +7,19 @@
         CALL SYS_CATEGORY_REGISTER ( #{category_name} );
     </insert>
 
-    <select id="category_list" resultType="com.blog.mvc.category.CategoryVO">
+    <select id="category_list" resultType="com.blog.mvc.category.CategoryListVO">
         CALL SYS_CATEGORY_LIST();
     </select>
 
-    <delete id="category_delete">
-        CALL SYS_CATEGORY_DELETE();
+    <select id="DelCategoryAction" parameterType="String">
+        CALL SYS_CATEGORY_DELETE(#{s});
+    </select>
+
+    <select id="tag_register">
+        CALL SYS_TAG_REGISTER();
+    </select>
+    
+    <delete id="tag_delete">
+        CALL SYS_TAG_DELETE( #{cateogry_code} , #{cateogry_name});
     </delete>
 </mapper>

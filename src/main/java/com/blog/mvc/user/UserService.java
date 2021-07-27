@@ -25,6 +25,7 @@ public class UserService {
     public int user_register(UserVO vo){
         return uMap.user_register(vo);
     }
+
     public UserVO user_login(UserVO vo, HttpServletRequest req) {
         HttpSession session = req.getSession();
         UserVO data = uMap.user_login(vo);

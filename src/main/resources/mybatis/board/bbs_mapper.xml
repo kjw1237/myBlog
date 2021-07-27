@@ -9,8 +9,7 @@
 		  		   #{CONTENT_IMG_URL},
 		  		   #{CONTENT_IMG_BYTE},
 		  		   #{CONTENT_IMG_FILENAME},
-		  		   #{user_name},
-            	   'test_code');
+		  		   #{user_name},);
     </insert>
 
 </mapper>

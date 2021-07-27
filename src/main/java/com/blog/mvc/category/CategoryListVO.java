@@ -2,10 +2,8 @@ package com.blog.mvc.category;
 
 import lombok.Data;
 
-import java.util.List;
-
 @Data
-public class CategoryVO {
+public class CategoryListVO {
+    private String category_code;
     private String category_name;
-    private List<CategoryListVO> voList;
 }
